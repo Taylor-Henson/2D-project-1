@@ -5,6 +5,7 @@ using UnityEngine;
 public class FallingBlock : MonoBehaviour
 {
     GameObject player;
+
     // Start is called before the first frame update
     void Start()
     {

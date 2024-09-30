@@ -4,22 +4,24 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
-   
+    #region variables and references
+    [Header("Variables")]
     float ex;
     float ey;
     float x;
     float y;
+    float distanceToPlayer;
+    bool closeToPlayer;
+    float enemySpeed = 2.5f;
 
+    [Header("References")]
     public GameObject player;
     public SpriteRenderer sr;
     public Rigidbody2D rb;
     public Animator anim;
+    #endregion
 
-    float distanceToPlayer;
-    bool closeToPlayer;
-    float enemySpeed = 2.5f;
-   
-
+    #region start and update
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +36,9 @@ public class EnemyScript : MonoBehaviour
         GetPositions();
         FacePlayer();
     }
+    #endregion
 
+    #region getting positions
     void GetPositions()
     {
         ex = player.transform.position.x;
@@ -66,7 +70,9 @@ public class EnemyScript : MonoBehaviour
             anim.SetBool("idle", true);
         }
     }
+    #endregion
 
+    #region facing and following player
     void FacePlayer()
     {
 
@@ -94,6 +100,5 @@ public class EnemyScript : MonoBehaviour
             rb.velocity = new Vector2(enemySpeed, 0);
         }
     }
-
-
+    #endregion
 }
