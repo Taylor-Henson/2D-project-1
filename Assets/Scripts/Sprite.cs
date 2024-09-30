@@ -6,17 +6,20 @@ public class PlayerController : MonoBehaviour
 {
     #region variables and references
     bool isOnGround = false;
+    [Header("Variables")]
     public float jumpForce = 20;
     public float speed = 2f;
     float xSpawn = -4.61f;
     float ySpawn = -1.51f;
 
+    [Header("References")]
     public Rigidbody2D playerRb;
     public Animator playerAnim;
     public SpriteRenderer playerSr;
     public GameObject box;
     #endregion
 
+    #region start and update
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +38,9 @@ public class PlayerController : MonoBehaviour
         Landing();
         Attacking();
     }
+    #endregion
 
+    #region movement
     void MoveSprite() // moves sprite in four planes with optional WASD controls as well as arrow keys
     {
         playerAnim.SetBool("walk", false);
@@ -55,7 +60,9 @@ public class PlayerController : MonoBehaviour
             playerSr.flipX = true;
         }
     }
+    #endregion
 
+    #region jumping and landing
     void Jump() // enables jumping animation and forces
     { 
         if (Input.GetKeyDown("space") && isOnGround)
@@ -88,7 +95,9 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+    #endregion
 
+    #region attacking
     void Attacking()
     {
         playerAnim.SetBool("attack", false);
@@ -97,7 +106,9 @@ public class PlayerController : MonoBehaviour
             playerAnim.SetBool("attack", true);
         }
     }
+    #endregion
 
+    #region collisions 
     private void OnCollisionEnter2D(Collision2D collision) // when the sprite touches the ground 
     {
         if (collision.gameObject.CompareTag("Ground"))
@@ -110,7 +121,5 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(xSpawn, ySpawn, 0);
         }
     }
-
-   
-
+    #endregion
 }
