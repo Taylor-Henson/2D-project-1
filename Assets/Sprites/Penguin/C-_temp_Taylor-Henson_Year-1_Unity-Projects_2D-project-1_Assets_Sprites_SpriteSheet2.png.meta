@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: c0b0dc62434560c488f3731fc347d992
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8238025802408577569
+    second: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_0
+  - first:
+      213: 374503221497223317
+    second: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_1
+  - first:
+      213: 5061967555447751644
+    second: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_2
+  - first:
+      213: 809765194130334758
+    second: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_3
+  - first:
+      213: 5476065347461370863
+    second: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_4
+  - first:
+      213: 2075481908286882481
+    second: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_5
+  - first:
+      213: 1727360928874237195
+    second: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_6
+  - first:
+      213: 5755353799484926141
+    second: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_7
+  - first:
+      213: 5830420418302696543
+    second: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_8
+  - first:
+      213: -8588295918611544964
+    second: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_9
+  - first:
+      213: -4873058814197460809
+    second: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_10
+  - first:
+      213: 6702603125817997770
+    second: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_11
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_0
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1533
+        width: 180
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0de1113a7398e1479db4cdd52f299f3
+      internalID: -132444561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_1
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1535
+        width: 197
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecbaaefa91c00348ba2cf0110dde3e9
+      internalID: -111944619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_2
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1535
+        width: 194
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2155072fbd1fc642985cdf9f7d6dee7
+      internalID: -439065307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_3
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1535
+        width: 182
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ee83a9765856f4b8dc4a8e5e1808b7
+      internalID: -1802572632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_4
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 1533
+        width: 182
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683d20ba1bb22f0418b940ae69a7eb00
+      internalID: 238203996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_5
+      rect:
+        serializedVersion: 2
+        x: 2717
+        y: 1535
+        width: 184
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4018c33cfcd4d4ab7b70a9c477e8f6
+      internalID: -719087663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_6
+      rect:
+        serializedVersion: 2
+        x: 3237
+        y: 1535
+        width: 182
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508a289cc08868643a0d8da986567595
+      internalID: -1703542870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_7
+      rect:
+        serializedVersion: 2
+        x: 3749
+        y: 1535
+        width: 182
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055647d9552b37a4085dcb2a4451670a
+      internalID: -532827575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_8
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1021
+        width: 180
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bddd62e737676c4bbaab8e4d29fd2df
+      internalID: 1799416725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_9
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1021
+        width: 182
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2a76d6de1a1f8429b85c982bbbcabf
+      internalID: 1667288669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_10
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1021
+        width: 180
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcbe4cd1677c1b4998bcec9ae44fc28
+      internalID: -1679988504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_11
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1021
+        width: 184
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb27030485776d3479bd056f5d19a9c8
+      internalID: 734026850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 26d37b73175afe04684df3cc4f25ff6f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_0: -132444561
+      C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_1: -111944619
+      C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_10: -1679988504
+      C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_11: 734026850
+      C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_2: -439065307
+      C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_3: -1802572632
+      C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_4: 238203996
+      C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_5: -719087663
+      C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_6: -1703542870
+      C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_7: -532827575
+      C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_8: 1799416725
+      C-_temp_Taylor-Henson_Year-1_Unity-Projects_2D-project-1_Assets_Sprites_SpriteSheet2_9: 1667288669
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
