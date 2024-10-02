@@ -13,12 +13,17 @@ public class EnemyScript : MonoBehaviour
     float distanceToPlayer;
     bool closeToPlayer;
     float enemySpeed = 2.5f;
+    public int health = 100;
+
+
 
     [Header("References")]
     public GameObject player;
     public SpriteRenderer sr;
     public Rigidbody2D rb;
     public Animator anim;
+    private PlayerController playerController;
+    GameObject enemy;
     #endregion
 
     #region start and update
@@ -28,6 +33,8 @@ public class EnemyScript : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        playerController = GameObject.Find("PlayerSprite").GetComponent<PlayerController>();
+        enemy = GameObject.Find("Enemy");
     }
 
     // Update is called once per frame
@@ -35,6 +42,7 @@ public class EnemyScript : MonoBehaviour
     {
         GetPositions();
         FacePlayer();
+        Death();
     }
     #endregion
 
@@ -101,4 +109,22 @@ public class EnemyScript : MonoBehaviour
         }
     }
     #endregion
+
+    public void TakeDamage()
+    {
+        health -= 34;
+    }
+
+    void Death()
+    {
+        if (health < 0)
+        {
+            Destroy(enemy);
+            playerController.enemyAlive = false;
+        }
+        else
+        {
+            playerController.enemyAlive = true;
+        }
+    }
 }

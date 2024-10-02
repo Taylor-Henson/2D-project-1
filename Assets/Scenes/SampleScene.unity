@@ -20521,6 +20521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5a46360f31b1004495f1c12fd1faa5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
   player: {fileID: 1121045647}
   sr: {fileID: 0}
   rb: {fileID: 0}
@@ -37399,7 +37400,6 @@ GameObject:
   - component: {fileID: 1121045652}
   - component: {fileID: 1121045651}
   - component: {fileID: 1121045653}
-  - component: {fileID: 1121045654}
   m_Layer: 0
   m_Name: PlayerSprite
   m_TagString: Player
@@ -37421,6 +37421,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpForce: 20
   speed: 1.7
+  xDistance: 0
+  yDistance: 0
+  inAttackRange: 0
+  enemyAlive: 0
   playerRb: {fileID: 0}
   playerAnim: {fileID: 0}
   playerSr: {fileID: 0}
@@ -37587,19 +37591,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1121045654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1121045647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8534d62376cada4898b3ed7fc1b8f84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boxCount: 0
 --- !u!1 &1138078441
 GameObject:
   m_ObjectHideFlags: 0

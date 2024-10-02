@@ -11,12 +11,23 @@ public class PlayerController : MonoBehaviour
     public float speed = 2f;
     float xSpawn = -4.61f;
     float ySpawn = -1.51f;
+    float x;
+    float y;
+    float ex;
+    float ey;
+    public float xDistance;
+    public float yDistance;
+    public bool inAttackRange;
+    public bool enemyAlive;
+
 
     [Header("References")]
     public Rigidbody2D playerRb;
     public Animator playerAnim;
     public SpriteRenderer playerSr;
     public GameObject box;
+    private EnemyScript enemyScript;
+    GameObject enemy;
     #endregion
 
     #region start and update
@@ -27,6 +38,8 @@ public class PlayerController : MonoBehaviour
        playerAnim = GetComponent<Animator>();
        playerSr = GetComponent<SpriteRenderer>();
        box = GameObject.Find("Box 2");
+       enemyScript = GameObject.Find("Enemy").GetComponent<EnemyScript>();
+       enemy = GameObject.Find("Enemy");
     }
 
     // Update is called once per frame
@@ -37,6 +50,34 @@ public class PlayerController : MonoBehaviour
         Falling();
         Landing();
         Attacking();
+
+        if (enemyAlive == true)
+        {
+            GetPositions();
+        }
+    }
+
+        #endregion
+
+        #region getpositions
+        void GetPositions()
+    {
+        x = transform.position.x;
+        y = transform.position.y;
+        ex = enemy.transform.position.x;
+        ey = enemy.transform.position.y;
+
+        xDistance = ex - x;
+        yDistance = ey - y;
+
+        if (xDistance < 1 && xDistance > -1)
+        {
+            inAttackRange = true;
+        }
+        else
+        {
+            inAttackRange = false;
+        }
     }
     #endregion
 
@@ -105,11 +146,16 @@ public class PlayerController : MonoBehaviour
         {
             playerAnim.SetBool("attack", true);
         }
+
+        if(Input.GetKeyDown("q") && inAttackRange == true)
+        {
+            enemyScript.TakeDamage();
+        }
     }
     #endregion
 
     #region collisions 
-    private void OnCollisionEnter2D(Collision2D collision) // when the sprite touches the ground 
+    void OnCollisionEnter2D(Collision2D collision) // when the sprite touches the ground 
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
