@@ -12,8 +12,10 @@ public class EnemyScript : MonoBehaviour
     float y;
     float distanceToPlayer;
     bool closeToPlayer;
-    float enemySpeed = 2.5f;
+    public float enemySpeed = 2.5f;
     public int health = 100;
+    int patrolSpeed = 1;
+    int speedMultiplier = 1;
 
 
 
@@ -24,6 +26,7 @@ public class EnemyScript : MonoBehaviour
     public Animator anim;
     private PlayerController playerController;
     GameObject enemy;
+    private Helper helper;
     #endregion
 
     #region start and update
@@ -35,14 +38,15 @@ public class EnemyScript : MonoBehaviour
         anim = GetComponent<Animator>();
         playerController = GameObject.Find("PlayerSprite").GetComponent<PlayerController>();
         enemy = GameObject.Find("Enemy");
+        helper = GetComponent<Helper>();
     }
 
     // Update is called once per frame
     void Update()
     {
         GetPositions();
-        FacePlayer();
         Death();
+        Patrolling();
     }
     #endregion
 
@@ -57,7 +61,7 @@ public class EnemyScript : MonoBehaviour
 
         distanceToPlayer = ex - x;
 
-        if (distanceToPlayer > -3 && distanceToPlayer< 3)
+        if (distanceToPlayer > -3 && distanceToPlayer < 3)
         {
             closeToPlayer = true;   
         }
@@ -68,7 +72,7 @@ public class EnemyScript : MonoBehaviour
 
         if(closeToPlayer == true)
         {
-            FollowPlayer();
+           // FollowPlayer();
             anim.SetBool("walk", true);
             anim.SetBool("idle", false);
         }
@@ -81,20 +85,7 @@ public class EnemyScript : MonoBehaviour
     #endregion
 
     #region facing and following player
-    void FacePlayer()
-    {
-
-        if (ex < x)
-        {
-            sr.flipX = true;
-
-        }
-        else
-        {
-            sr.flipX = false;
-        }
-
-    }
+   
 
     void FollowPlayer()
     {
@@ -107,9 +98,12 @@ public class EnemyScript : MonoBehaviour
         {
             rb.velocity = new Vector2(enemySpeed, 0);
         }
+
+       
     }
     #endregion
 
+    #region taking damage and dying
     public void TakeDamage()
     {
         health -= 34;
@@ -127,4 +121,28 @@ public class EnemyScript : MonoBehaviour
             playerController.enemyAlive = true;
         }
     }
+    #endregion
+
+    #region patrolling ai
+
+    void Patrolling()
+    {
+        if (enemySpeed < 0)
+        {
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
+
+        if (!helper.isOnGround)
+        {
+            enemySpeed *= -1;
+        }
+
+        rb.velocity = new Vector2(enemySpeed / 2, rb.velocityY);
+    }
+
+    #endregion
 }
