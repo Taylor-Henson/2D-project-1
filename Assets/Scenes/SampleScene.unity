@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 4012205}
   - component: {fileID: 4012204}
   - component: {fileID: 4012203}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (6)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 5364891}
   - component: {fileID: 5364890}
   - component: {fileID: 5364889}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 7285347}
   - component: {fileID: 7285346}
   - component: {fileID: 7285345}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (25)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -609,7 +609,7 @@ GameObject:
   - component: {fileID: 15830983}
   - component: {fileID: 15830982}
   - component: {fileID: 15830981}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (135)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -768,7 +768,7 @@ GameObject:
   - component: {fileID: 27319094}
   - component: {fileID: 27319093}
   - component: {fileID: 27319092}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (131)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -927,7 +927,7 @@ GameObject:
   - component: {fileID: 34681694}
   - component: {fileID: 34681693}
   - component: {fileID: 34681692}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (2)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -1091,7 +1091,7 @@ GameObject:
   - component: {fileID: 38904248}
   - component: {fileID: 38904247}
   - component: {fileID: 38904246}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (22)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -1250,7 +1250,7 @@ GameObject:
   - component: {fileID: 43881449}
   - component: {fileID: 43881448}
   - component: {fileID: 43881447}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (168)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1409,7 +1409,7 @@ GameObject:
   - component: {fileID: 52142839}
   - component: {fileID: 52142838}
   - component: {fileID: 52142837}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1568,7 +1568,7 @@ GameObject:
   - component: {fileID: 54304827}
   - component: {fileID: 54304826}
   - component: {fileID: 54304825}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1727,7 +1727,7 @@ GameObject:
   - component: {fileID: 55155313}
   - component: {fileID: 55155312}
   - component: {fileID: 55155311}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_3 (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1886,7 +1886,7 @@ GameObject:
   - component: {fileID: 61879386}
   - component: {fileID: 61879385}
   - component: {fileID: 61879384}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_2 (9)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2045,7 +2045,7 @@ GameObject:
   - component: {fileID: 69075706}
   - component: {fileID: 69075705}
   - component: {fileID: 69075704}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (25)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -2209,7 +2209,7 @@ GameObject:
   - component: {fileID: 85744987}
   - component: {fileID: 85744986}
   - component: {fileID: 85744985}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (185)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2368,7 +2368,7 @@ GameObject:
   - component: {fileID: 90344147}
   - component: {fileID: 90344146}
   - component: {fileID: 90344145}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (187)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2525,7 +2525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 90393925}
   - component: {fileID: 90393924}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_10 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2611,7 +2611,7 @@ GameObject:
   - component: {fileID: 105284943}
   - component: {fileID: 105284942}
   - component: {fileID: 105284941}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (182)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2770,7 +2770,7 @@ GameObject:
   - component: {fileID: 107871810}
   - component: {fileID: 107871809}
   - component: {fileID: 107871808}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2929,7 +2929,7 @@ GameObject:
   - component: {fileID: 112472489}
   - component: {fileID: 112472492}
   - component: {fileID: 112472491}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -3088,7 +3088,7 @@ GameObject:
   - component: {fileID: 118465880}
   - component: {fileID: 118465879}
   - component: {fileID: 118465878}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (134)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3247,7 +3247,7 @@ GameObject:
   - component: {fileID: 120094455}
   - component: {fileID: 120094454}
   - component: {fileID: 120094453}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (114)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3406,7 +3406,7 @@ GameObject:
   - component: {fileID: 132538936}
   - component: {fileID: 132538935}
   - component: {fileID: 132538934}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (162)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3565,7 +3565,7 @@ GameObject:
   - component: {fileID: 132683320}
   - component: {fileID: 132683319}
   - component: {fileID: 132683318}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (29)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -3724,7 +3724,7 @@ GameObject:
   - component: {fileID: 135364034}
   - component: {fileID: 135364033}
   - component: {fileID: 135364032}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (28)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -3883,7 +3883,7 @@ GameObject:
   - component: {fileID: 137820114}
   - component: {fileID: 137820113}
   - component: {fileID: 137820112}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (10)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -4042,7 +4042,7 @@ GameObject:
   - component: {fileID: 140218100}
   - component: {fileID: 140218099}
   - component: {fileID: 140218098}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4201,7 +4201,7 @@ GameObject:
   - component: {fileID: 140542927}
   - component: {fileID: 140542926}
   - component: {fileID: 140542925}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (21)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -4359,7 +4359,7 @@ GameObject:
   - component: {fileID: 148856134}
   - component: {fileID: 148856133}
   - component: {fileID: 148856135}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_30
   m_TagString: Falling
   m_Icon: {fileID: 0}
@@ -4457,7 +4457,7 @@ GameObject:
   - component: {fileID: 151055523}
   - component: {fileID: 151055522}
   - component: {fileID: 151055521}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (56)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -4614,7 +4614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 157227171}
   - component: {fileID: 157227170}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4700,7 +4700,7 @@ GameObject:
   - component: {fileID: 162412162}
   - component: {fileID: 162412161}
   - component: {fileID: 162412160}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (15)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -4859,7 +4859,7 @@ GameObject:
   - component: {fileID: 166633093}
   - component: {fileID: 166633092}
   - component: {fileID: 166633091}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5018,7 +5018,7 @@ GameObject:
   - component: {fileID: 174395562}
   - component: {fileID: 174395565}
   - component: {fileID: 174395564}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (2)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -5177,7 +5177,7 @@ GameObject:
   - component: {fileID: 175108824}
   - component: {fileID: 175108823}
   - component: {fileID: 175108822}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5336,7 +5336,7 @@ GameObject:
   - component: {fileID: 187071125}
   - component: {fileID: 187071124}
   - component: {fileID: 187071123}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (10)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -5494,7 +5494,7 @@ GameObject:
   - component: {fileID: 194016012}
   - component: {fileID: 194016011}
   - component: {fileID: 194016010}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_2 (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5626,7 +5626,7 @@ GameObject:
   - component: {fileID: 194262997}
   - component: {fileID: 194262996}
   - component: {fileID: 194262995}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (158)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5785,7 +5785,7 @@ GameObject:
   - component: {fileID: 195224643}
   - component: {fileID: 195224642}
   - component: {fileID: 195224641}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5942,7 +5942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 205628272}
   - component: {fileID: 205628271}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_19
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6010,8 +6010,8 @@ Transform:
   m_GameObject: {fileID: 205628270}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.1225834, y: -2.8502412, z: -0.116042726}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 5.0768, y: -2.8502412, z: -0.116042726}
+  m_LocalScale: {x: 1.1146, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 895584676}
@@ -6028,7 +6028,7 @@ GameObject:
   - component: {fileID: 206035619}
   - component: {fileID: 206035618}
   - component: {fileID: 206035617}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (183)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6187,7 +6187,7 @@ GameObject:
   - component: {fileID: 206129048}
   - component: {fileID: 206129047}
   - component: {fileID: 206129046}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6346,7 +6346,7 @@ GameObject:
   - component: {fileID: 212177930}
   - component: {fileID: 212177929}
   - component: {fileID: 212177928}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6505,7 +6505,7 @@ GameObject:
   - component: {fileID: 221063236}
   - component: {fileID: 221063235}
   - component: {fileID: 221063234}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (110)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6664,7 +6664,7 @@ GameObject:
   - component: {fileID: 246376955}
   - component: {fileID: 246376954}
   - component: {fileID: 246376953}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (93)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6823,7 +6823,7 @@ GameObject:
   - component: {fileID: 252412307}
   - component: {fileID: 252412306}
   - component: {fileID: 252412305}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (24)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -6982,7 +6982,7 @@ GameObject:
   - component: {fileID: 256469507}
   - component: {fileID: 256469506}
   - component: {fileID: 256469505}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7141,7 +7141,7 @@ GameObject:
   - component: {fileID: 256677977}
   - component: {fileID: 256677976}
   - component: {fileID: 256677975}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (98)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7431,7 +7431,7 @@ GameObject:
   - component: {fileID: 261845831}
   - component: {fileID: 261845830}
   - component: {fileID: 261845829}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (125)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7590,7 +7590,7 @@ GameObject:
   - component: {fileID: 264127344}
   - component: {fileID: 264127343}
   - component: {fileID: 264127342}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (94)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7749,7 +7749,7 @@ GameObject:
   - component: {fileID: 272233127}
   - component: {fileID: 272233126}
   - component: {fileID: 272233125}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7908,7 +7908,7 @@ GameObject:
   - component: {fileID: 278084212}
   - component: {fileID: 278084211}
   - component: {fileID: 278084210}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (36)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -8067,7 +8067,7 @@ GameObject:
   - component: {fileID: 278085277}
   - component: {fileID: 278085276}
   - component: {fileID: 278085275}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (23)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -8226,7 +8226,7 @@ GameObject:
   - component: {fileID: 283540972}
   - component: {fileID: 283540971}
   - component: {fileID: 283540970}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_1 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8390,7 +8390,7 @@ GameObject:
   - component: {fileID: 298586511}
   - component: {fileID: 298586510}
   - component: {fileID: 298586509}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (32)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -8549,7 +8549,7 @@ GameObject:
   - component: {fileID: 301759061}
   - component: {fileID: 301759064}
   - component: {fileID: 301759063}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (6)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -8708,7 +8708,7 @@ GameObject:
   - component: {fileID: 306219358}
   - component: {fileID: 306219357}
   - component: {fileID: 306219356}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_3 (10)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8867,7 +8867,7 @@ GameObject:
   - component: {fileID: 310296072}
   - component: {fileID: 310296071}
   - component: {fileID: 310296070}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9026,7 +9026,7 @@ GameObject:
   - component: {fileID: 311785401}
   - component: {fileID: 311785400}
   - component: {fileID: 311785399}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9185,7 +9185,7 @@ GameObject:
   - component: {fileID: 314176380}
   - component: {fileID: 314176379}
   - component: {fileID: 314176378}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_3 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -9344,7 +9344,7 @@ GameObject:
   - component: {fileID: 316572947}
   - component: {fileID: 316572946}
   - component: {fileID: 316572945}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (18)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -9503,7 +9503,7 @@ GameObject:
   - component: {fileID: 336715230}
   - component: {fileID: 336715229}
   - component: {fileID: 336715228}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9662,7 +9662,7 @@ GameObject:
   - component: {fileID: 337321414}
   - component: {fileID: 337321413}
   - component: {fileID: 337321412}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9821,7 +9821,7 @@ GameObject:
   - component: {fileID: 343067197}
   - component: {fileID: 343067196}
   - component: {fileID: 343067195}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9980,7 +9980,7 @@ GameObject:
   - component: {fileID: 343908538}
   - component: {fileID: 343908537}
   - component: {fileID: 343908536}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (49)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -10139,7 +10139,7 @@ GameObject:
   - component: {fileID: 349758858}
   - component: {fileID: 349758857}
   - component: {fileID: 349758856}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (105)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10298,7 +10298,7 @@ GameObject:
   - component: {fileID: 354581267}
   - component: {fileID: 354581266}
   - component: {fileID: 354581265}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10457,7 +10457,7 @@ GameObject:
   - component: {fileID: 363080984}
   - component: {fileID: 363080983}
   - component: {fileID: 363080982}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10616,7 +10616,7 @@ GameObject:
   - component: {fileID: 363937420}
   - component: {fileID: 363937423}
   - component: {fileID: 363937422}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10773,7 +10773,7 @@ GameObject:
   m_Component:
   - component: {fileID: 368141003}
   - component: {fileID: 368141002}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10859,7 +10859,7 @@ GameObject:
   - component: {fileID: 374278879}
   - component: {fileID: 374278878}
   - component: {fileID: 374278877}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (68)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -11018,7 +11018,7 @@ GameObject:
   - component: {fileID: 377736207}
   - component: {fileID: 377736206}
   - component: {fileID: 377736205}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11177,7 +11177,7 @@ GameObject:
   - component: {fileID: 417235645}
   - component: {fileID: 417235644}
   - component: {fileID: 417235643}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (1)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -11336,7 +11336,7 @@ GameObject:
   - component: {fileID: 420106547}
   - component: {fileID: 420106546}
   - component: {fileID: 420106545}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (45)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -11495,7 +11495,7 @@ GameObject:
   - component: {fileID: 421083058}
   - component: {fileID: 421083057}
   - component: {fileID: 421083056}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11654,7 +11654,7 @@ GameObject:
   - component: {fileID: 428706528}
   - component: {fileID: 428706527}
   - component: {fileID: 428706526}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (193)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11813,7 +11813,7 @@ GameObject:
   - component: {fileID: 431550691}
   - component: {fileID: 431550690}
   - component: {fileID: 431550689}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11972,7 +11972,7 @@ GameObject:
   - component: {fileID: 434484671}
   - component: {fileID: 434484670}
   - component: {fileID: 434484669}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (169)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12129,7 +12129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 434669557}
   - component: {fileID: 434669556}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12215,7 +12215,7 @@ GameObject:
   - component: {fileID: 439238644}
   - component: {fileID: 439238643}
   - component: {fileID: 439238642}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_14 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12374,7 +12374,7 @@ GameObject:
   - component: {fileID: 440607133}
   - component: {fileID: 440607132}
   - component: {fileID: 440607131}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12533,7 +12533,7 @@ GameObject:
   - component: {fileID: 442391135}
   - component: {fileID: 442391134}
   - component: {fileID: 442391133}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12692,7 +12692,7 @@ GameObject:
   - component: {fileID: 444278353}
   - component: {fileID: 444278352}
   - component: {fileID: 444278351}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (23)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -12851,7 +12851,7 @@ GameObject:
   - component: {fileID: 446843459}
   - component: {fileID: 446843462}
   - component: {fileID: 446843461}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13010,7 +13010,7 @@ GameObject:
   - component: {fileID: 450448798}
   - component: {fileID: 450448797}
   - component: {fileID: 450448796}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (67)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -13169,7 +13169,7 @@ GameObject:
   - component: {fileID: 456662447}
   - component: {fileID: 456662446}
   - component: {fileID: 456662445}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13328,7 +13328,7 @@ GameObject:
   - component: {fileID: 459021607}
   - component: {fileID: 459021606}
   - component: {fileID: 459021605}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13487,7 +13487,7 @@ GameObject:
   - component: {fileID: 464402315}
   - component: {fileID: 464402314}
   - component: {fileID: 464402313}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (43)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -13646,7 +13646,7 @@ GameObject:
   - component: {fileID: 467661934}
   - component: {fileID: 467661933}
   - component: {fileID: 467661932}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13805,7 +13805,7 @@ GameObject:
   - component: {fileID: 473826808}
   - component: {fileID: 473826807}
   - component: {fileID: 473826806}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (180)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13968,7 +13968,7 @@ GameObject:
   - component: {fileID: 489043724}
   - component: {fileID: 489043723}
   - component: {fileID: 489043725}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_2 (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -14100,7 +14100,7 @@ GameObject:
   - component: {fileID: 504654749}
   - component: {fileID: 504654748}
   - component: {fileID: 504654747}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_14 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14259,7 +14259,7 @@ GameObject:
   - component: {fileID: 505073648}
   - component: {fileID: 505073647}
   - component: {fileID: 505073646}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (116)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14418,7 +14418,7 @@ GameObject:
   - component: {fileID: 511669261}
   - component: {fileID: 511669260}
   - component: {fileID: 511669259}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14577,7 +14577,7 @@ GameObject:
   - component: {fileID: 512540427}
   - component: {fileID: 512540426}
   - component: {fileID: 512540425}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14736,7 +14736,7 @@ GameObject:
   - component: {fileID: 512768400}
   - component: {fileID: 512768399}
   - component: {fileID: 512768398}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14895,7 +14895,7 @@ GameObject:
   - component: {fileID: 514591335}
   - component: {fileID: 514591334}
   - component: {fileID: 514591333}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (19)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -15054,7 +15054,7 @@ GameObject:
   - component: {fileID: 515449214}
   - component: {fileID: 515449213}
   - component: {fileID: 515449212}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (192)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15213,7 +15213,7 @@ GameObject:
   - component: {fileID: 518767799}
   - component: {fileID: 518767798}
   - component: {fileID: 518767797}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_3 (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -15370,7 +15370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 518889953}
   - component: {fileID: 518889952}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15562,7 +15562,7 @@ GameObject:
   - component: {fileID: 521183730}
   - component: {fileID: 521183729}
   - component: {fileID: 521183728}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15721,7 +15721,7 @@ GameObject:
   - component: {fileID: 522374266}
   - component: {fileID: 522374265}
   - component: {fileID: 522374264}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (70)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -15880,7 +15880,7 @@ GameObject:
   - component: {fileID: 524623022}
   - component: {fileID: 524623021}
   - component: {fileID: 524623020}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (9)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -16039,7 +16039,7 @@ GameObject:
   - component: {fileID: 525332968}
   - component: {fileID: 525332967}
   - component: {fileID: 525332966}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_14 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16198,7 +16198,7 @@ GameObject:
   - component: {fileID: 526774488}
   - component: {fileID: 526774487}
   - component: {fileID: 526774486}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16357,7 +16357,7 @@ GameObject:
   - component: {fileID: 527502014}
   - component: {fileID: 527502013}
   - component: {fileID: 527502012}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (175)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16516,7 +16516,7 @@ GameObject:
   - component: {fileID: 537140641}
   - component: {fileID: 537140640}
   - component: {fileID: 537140639}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16675,7 +16675,7 @@ GameObject:
   - component: {fileID: 538173669}
   - component: {fileID: 538173668}
   - component: {fileID: 538173667}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16834,7 +16834,7 @@ GameObject:
   - component: {fileID: 544212836}
   - component: {fileID: 544212835}
   - component: {fileID: 544212834}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (60)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -16993,7 +16993,7 @@ GameObject:
   - component: {fileID: 551466830}
   - component: {fileID: 551466829}
   - component: {fileID: 551466828}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17152,7 +17152,7 @@ GameObject:
   - component: {fileID: 553808578}
   - component: {fileID: 553808577}
   - component: {fileID: 553808576}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (141)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17311,7 +17311,7 @@ GameObject:
   - component: {fileID: 555999803}
   - component: {fileID: 555999802}
   - component: {fileID: 555999801}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17470,7 +17470,7 @@ GameObject:
   - component: {fileID: 561616571}
   - component: {fileID: 561616570}
   - component: {fileID: 561616569}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17629,7 +17629,7 @@ GameObject:
   - component: {fileID: 573676690}
   - component: {fileID: 573676689}
   - component: {fileID: 573676688}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (32)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -17788,7 +17788,7 @@ GameObject:
   - component: {fileID: 581262511}
   - component: {fileID: 581262510}
   - component: {fileID: 581262509}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17947,7 +17947,7 @@ GameObject:
   - component: {fileID: 586753267}
   - component: {fileID: 586753266}
   - component: {fileID: 586753265}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (188)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18106,7 +18106,7 @@ GameObject:
   - component: {fileID: 587940920}
   - component: {fileID: 587940919}
   - component: {fileID: 587940918}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (40)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -18265,7 +18265,7 @@ GameObject:
   - component: {fileID: 596100580}
   - component: {fileID: 596100579}
   - component: {fileID: 596100578}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18422,7 +18422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 596359434}
   - component: {fileID: 596359433}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_29 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18508,7 +18508,7 @@ GameObject:
   - component: {fileID: 600415130}
   - component: {fileID: 600415129}
   - component: {fileID: 600415128}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (51)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -18667,7 +18667,7 @@ GameObject:
   - component: {fileID: 602569739}
   - component: {fileID: 602569738}
   - component: {fileID: 602569737}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18826,7 +18826,7 @@ GameObject:
   - component: {fileID: 611691083}
   - component: {fileID: 611691082}
   - component: {fileID: 611691081}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18985,7 +18985,7 @@ GameObject:
   - component: {fileID: 616029258}
   - component: {fileID: 616029257}
   - component: {fileID: 616029256}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (5)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -19142,7 +19142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 616432826}
   - component: {fileID: 616432825}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19228,7 +19228,7 @@ GameObject:
   - component: {fileID: 620140944}
   - component: {fileID: 620140947}
   - component: {fileID: 620140946}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -19387,7 +19387,7 @@ GameObject:
   - component: {fileID: 624573488}
   - component: {fileID: 624573487}
   - component: {fileID: 624573486}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19546,7 +19546,7 @@ GameObject:
   - component: {fileID: 625103306}
   - component: {fileID: 625103305}
   - component: {fileID: 625103304}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19705,7 +19705,7 @@ GameObject:
   - component: {fileID: 629102285}
   - component: {fileID: 629102284}
   - component: {fileID: 629102283}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (4)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -19864,7 +19864,7 @@ GameObject:
   - component: {fileID: 637305047}
   - component: {fileID: 637305046}
   - component: {fileID: 637305045}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20023,7 +20023,7 @@ GameObject:
   - component: {fileID: 639159906}
   - component: {fileID: 639159905}
   - component: {fileID: 639159904}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (19)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -20182,7 +20182,7 @@ GameObject:
   - component: {fileID: 643476312}
   - component: {fileID: 643476315}
   - component: {fileID: 643476314}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (4)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -20341,7 +20341,7 @@ GameObject:
   - component: {fileID: 643579409}
   - component: {fileID: 643579408}
   - component: {fileID: 643579407}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (128)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20502,6 +20502,7 @@ GameObject:
   - component: {fileID: 643998531}
   - component: {fileID: 643998529}
   - component: {fileID: 643998535}
+  - component: {fileID: 643998536}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Player
@@ -20688,6 +20689,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &643998536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643998528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957f82a308fa6064db71d8d1b63e0b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOnGround: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &645602496
 GameObject:
   m_ObjectHideFlags: 0
@@ -20700,7 +20717,7 @@ GameObject:
   - component: {fileID: 645602499}
   - component: {fileID: 645602498}
   - component: {fileID: 645602497}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (20)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -20859,7 +20876,7 @@ GameObject:
   - component: {fileID: 648580110}
   - component: {fileID: 648580109}
   - component: {fileID: 648580108}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (69)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -21016,7 +21033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 651582715}
   - component: {fileID: 651582714}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_20 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21101,7 +21118,7 @@ GameObject:
   - component: {fileID: 654707722}
   - component: {fileID: 654707724}
   - component: {fileID: 654707723}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21233,7 +21250,7 @@ GameObject:
   - component: {fileID: 655838904}
   - component: {fileID: 655838903}
   - component: {fileID: 655838902}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21392,7 +21409,7 @@ GameObject:
   - component: {fileID: 658860002}
   - component: {fileID: 658860001}
   - component: {fileID: 658860000}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21551,7 +21568,7 @@ GameObject:
   - component: {fileID: 659887652}
   - component: {fileID: 659887651}
   - component: {fileID: 659887650}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (16)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -21710,7 +21727,7 @@ GameObject:
   - component: {fileID: 662669849}
   - component: {fileID: 662669848}
   - component: {fileID: 662669847}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21869,7 +21886,7 @@ GameObject:
   - component: {fileID: 666641062}
   - component: {fileID: 666641061}
   - component: {fileID: 666641060}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22027,7 +22044,7 @@ GameObject:
   - component: {fileID: 668618486}
   - component: {fileID: 668618485}
   - component: {fileID: 668618487}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_4 (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -22194,7 +22211,7 @@ GameObject:
   - component: {fileID: 672661119}
   - component: {fileID: 672661118}
   - component: {fileID: 672661117}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (13)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -22353,7 +22370,7 @@ GameObject:
   - component: {fileID: 672994959}
   - component: {fileID: 672994958}
   - component: {fileID: 672994957}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22512,7 +22529,7 @@ GameObject:
   - component: {fileID: 672996138}
   - component: {fileID: 672996137}
   - component: {fileID: 672996136}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (155)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22802,7 +22819,7 @@ GameObject:
   - component: {fileID: 678311591}
   - component: {fileID: 678311590}
   - component: {fileID: 678311589}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (44)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -22961,7 +22978,7 @@ GameObject:
   - component: {fileID: 681513569}
   - component: {fileID: 681513572}
   - component: {fileID: 681513571}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_2
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -23120,7 +23137,7 @@ GameObject:
   - component: {fileID: 696275342}
   - component: {fileID: 696275341}
   - component: {fileID: 696275340}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23279,7 +23296,7 @@ GameObject:
   - component: {fileID: 703803558}
   - component: {fileID: 703803557}
   - component: {fileID: 703803556}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23438,7 +23455,7 @@ GameObject:
   - component: {fileID: 712804779}
   - component: {fileID: 712804778}
   - component: {fileID: 712804777}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (7)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -23597,7 +23614,7 @@ GameObject:
   - component: {fileID: 716875094}
   - component: {fileID: 716875093}
   - component: {fileID: 716875092}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (157)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23756,7 +23773,7 @@ GameObject:
   - component: {fileID: 722634235}
   - component: {fileID: 722634234}
   - component: {fileID: 722634233}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23915,7 +23932,7 @@ GameObject:
   - component: {fileID: 727646656}
   - component: {fileID: 727646655}
   - component: {fileID: 727646654}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (33)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -24074,7 +24091,7 @@ GameObject:
   - component: {fileID: 728550049}
   - component: {fileID: 728550048}
   - component: {fileID: 728550047}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24233,7 +24250,7 @@ GameObject:
   - component: {fileID: 730649816}
   - component: {fileID: 730649815}
   - component: {fileID: 730649814}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24392,7 +24409,7 @@ GameObject:
   - component: {fileID: 740759517}
   - component: {fileID: 740759516}
   - component: {fileID: 740759515}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24551,7 +24568,7 @@ GameObject:
   - component: {fileID: 743365215}
   - component: {fileID: 743365214}
   - component: {fileID: 743365213}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_3 (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -24710,7 +24727,7 @@ GameObject:
   - component: {fileID: 752609787}
   - component: {fileID: 752609786}
   - component: {fileID: 752609785}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_3 (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -24869,7 +24886,7 @@ GameObject:
   - component: {fileID: 761723631}
   - component: {fileID: 761723630}
   - component: {fileID: 761723629}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (161)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25028,7 +25045,7 @@ GameObject:
   - component: {fileID: 768191245}
   - component: {fileID: 768191244}
   - component: {fileID: 768191243}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25187,7 +25204,7 @@ GameObject:
   - component: {fileID: 768940658}
   - component: {fileID: 768940657}
   - component: {fileID: 768940656}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25346,7 +25363,7 @@ GameObject:
   - component: {fileID: 769838226}
   - component: {fileID: 769838225}
   - component: {fileID: 769838224}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (31)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -25505,7 +25522,7 @@ GameObject:
   - component: {fileID: 770104133}
   - component: {fileID: 770104132}
   - component: {fileID: 770104131}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (39)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -25664,7 +25681,7 @@ GameObject:
   - component: {fileID: 776664141}
   - component: {fileID: 776664140}
   - component: {fileID: 776664139}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25823,7 +25840,7 @@ GameObject:
   - component: {fileID: 787971015}
   - component: {fileID: 787971014}
   - component: {fileID: 787971013}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (142)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25982,7 +25999,7 @@ GameObject:
   - component: {fileID: 789718690}
   - component: {fileID: 789718689}
   - component: {fileID: 789718688}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26140,7 +26157,7 @@ GameObject:
   - component: {fileID: 791511474}
   - component: {fileID: 791511473}
   - component: {fileID: 791511472}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_4 (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -26270,7 +26287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 793281830}
   - component: {fileID: 793281829}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_2 (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -26356,7 +26373,7 @@ GameObject:
   - component: {fileID: 804487746}
   - component: {fileID: 804487745}
   - component: {fileID: 804487744}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26515,7 +26532,7 @@ GameObject:
   - component: {fileID: 816034471}
   - component: {fileID: 816034474}
   - component: {fileID: 816034473}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_14 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26674,7 +26691,7 @@ GameObject:
   - component: {fileID: 816794178}
   - component: {fileID: 816794177}
   - component: {fileID: 816794176}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26833,7 +26850,7 @@ GameObject:
   - component: {fileID: 827013253}
   - component: {fileID: 827013252}
   - component: {fileID: 827013251}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (181)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26992,7 +27009,7 @@ GameObject:
   - component: {fileID: 830148721}
   - component: {fileID: 830148720}
   - component: {fileID: 830148719}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27151,7 +27168,7 @@ GameObject:
   - component: {fileID: 833045465}
   - component: {fileID: 833045464}
   - component: {fileID: 833045463}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (58)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -27310,7 +27327,7 @@ GameObject:
   - component: {fileID: 837008592}
   - component: {fileID: 837008595}
   - component: {fileID: 837008594}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -27469,7 +27486,7 @@ GameObject:
   - component: {fileID: 837056718}
   - component: {fileID: 837056717}
   - component: {fileID: 837056716}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27628,7 +27645,7 @@ GameObject:
   - component: {fileID: 840110601}
   - component: {fileID: 840110600}
   - component: {fileID: 840110599}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (14)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -27787,7 +27804,7 @@ GameObject:
   - component: {fileID: 842542189}
   - component: {fileID: 842542188}
   - component: {fileID: 842542187}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (118)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27946,7 +27963,7 @@ GameObject:
   - component: {fileID: 848491815}
   - component: {fileID: 848491814}
   - component: {fileID: 848491813}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (126)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28151,7 +28168,7 @@ GameObject:
   - component: {fileID: 860567876}
   - component: {fileID: 860567875}
   - component: {fileID: 860567874}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28310,7 +28327,7 @@ GameObject:
   - component: {fileID: 863700056}
   - component: {fileID: 863700055}
   - component: {fileID: 863700054}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (122)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28469,7 +28486,7 @@ GameObject:
   - component: {fileID: 867416557}
   - component: {fileID: 867416556}
   - component: {fileID: 867416555}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28628,7 +28645,7 @@ GameObject:
   - component: {fileID: 870622738}
   - component: {fileID: 870622737}
   - component: {fileID: 870622736}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (42)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -28787,7 +28804,7 @@ GameObject:
   - component: {fileID: 874008180}
   - component: {fileID: 874008179}
   - component: {fileID: 874008178}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28946,7 +28963,7 @@ GameObject:
   - component: {fileID: 875362019}
   - component: {fileID: 875362018}
   - component: {fileID: 875362017}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (171)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29103,7 +29120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 875503356}
   - component: {fileID: 875503357}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_29 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29189,7 +29206,7 @@ GameObject:
   - component: {fileID: 877209372}
   - component: {fileID: 877209371}
   - component: {fileID: 877209370}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29346,7 +29363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 877595136}
   - component: {fileID: 877595135}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_4 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -29591,7 +29608,7 @@ GameObject:
   - component: {fileID: 882186406}
   - component: {fileID: 882186405}
   - component: {fileID: 882186404}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (22)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -29748,7 +29765,7 @@ GameObject:
   m_Component:
   - component: {fileID: 882962806}
   - component: {fileID: 882962805}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_20 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29834,7 +29851,7 @@ GameObject:
   - component: {fileID: 884975143}
   - component: {fileID: 884975142}
   - component: {fileID: 884975141}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (27)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -29993,7 +30010,7 @@ GameObject:
   - component: {fileID: 885404831}
   - component: {fileID: 885404834}
   - component: {fileID: 885404833}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_4
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -30152,7 +30169,7 @@ GameObject:
   - component: {fileID: 890833665}
   - component: {fileID: 890833664}
   - component: {fileID: 890833663}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30311,7 +30328,7 @@ GameObject:
   - component: {fileID: 892673656}
   - component: {fileID: 892673655}
   - component: {fileID: 892673654}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30511,7 +30528,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 895584676}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30973,7 +30990,7 @@ GameObject:
   - component: {fileID: 909472085}
   - component: {fileID: 909472084}
   - component: {fileID: 909472083}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (194)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31132,7 +31149,7 @@ GameObject:
   - component: {fileID: 910109499}
   - component: {fileID: 910109498}
   - component: {fileID: 910109497}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (130)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31291,7 +31308,7 @@ GameObject:
   - component: {fileID: 913143511}
   - component: {fileID: 913143510}
   - component: {fileID: 913143509}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31450,7 +31467,7 @@ GameObject:
   - component: {fileID: 915356708}
   - component: {fileID: 915356707}
   - component: {fileID: 915356706}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (119)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31609,7 +31626,7 @@ GameObject:
   - component: {fileID: 916618413}
   - component: {fileID: 916618412}
   - component: {fileID: 916618411}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (124)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31768,7 +31785,7 @@ GameObject:
   - component: {fileID: 921540483}
   - component: {fileID: 921540482}
   - component: {fileID: 921540481}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31927,7 +31944,7 @@ GameObject:
   - component: {fileID: 930269749}
   - component: {fileID: 930269748}
   - component: {fileID: 930269747}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (153)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32086,7 +32103,7 @@ GameObject:
   - component: {fileID: 933021721}
   - component: {fileID: 933021720}
   - component: {fileID: 933021719}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (41)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -32245,7 +32262,7 @@ GameObject:
   - component: {fileID: 935515221}
   - component: {fileID: 935515220}
   - component: {fileID: 935515219}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (186)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32404,7 +32421,7 @@ GameObject:
   - component: {fileID: 937606049}
   - component: {fileID: 937606048}
   - component: {fileID: 937606047}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (57)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -32563,7 +32580,7 @@ GameObject:
   - component: {fileID: 941137499}
   - component: {fileID: 941137498}
   - component: {fileID: 941137497}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32722,7 +32739,7 @@ GameObject:
   - component: {fileID: 947333087}
   - component: {fileID: 947333086}
   - component: {fileID: 947333085}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (7)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -32881,7 +32898,7 @@ GameObject:
   - component: {fileID: 957344210}
   - component: {fileID: 957344209}
   - component: {fileID: 957344208}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33040,7 +33057,7 @@ GameObject:
   - component: {fileID: 979712050}
   - component: {fileID: 979712049}
   - component: {fileID: 979712048}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (113)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33199,7 +33216,7 @@ GameObject:
   - component: {fileID: 982084317}
   - component: {fileID: 982084316}
   - component: {fileID: 982084315}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33358,7 +33375,7 @@ GameObject:
   - component: {fileID: 990684260}
   - component: {fileID: 990684259}
   - component: {fileID: 990684258}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (150)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33517,7 +33534,7 @@ GameObject:
   - component: {fileID: 1013906772}
   - component: {fileID: 1013906771}
   - component: {fileID: 1013906770}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33675,7 +33692,7 @@ GameObject:
   - component: {fileID: 1016852043}
   - component: {fileID: 1016852042}
   - component: {fileID: 1016852044}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_2 (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -33807,7 +33824,7 @@ GameObject:
   - component: {fileID: 1018644857}
   - component: {fileID: 1018644856}
   - component: {fileID: 1018644855}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33966,7 +33983,7 @@ GameObject:
   - component: {fileID: 1018929710}
   - component: {fileID: 1018929709}
   - component: {fileID: 1018929708}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34125,7 +34142,7 @@ GameObject:
   - component: {fileID: 1020323658}
   - component: {fileID: 1020323657}
   - component: {fileID: 1020323656}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (30)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -34284,7 +34301,7 @@ GameObject:
   - component: {fileID: 1024847781}
   - component: {fileID: 1024847780}
   - component: {fileID: 1024847779}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34443,7 +34460,7 @@ GameObject:
   - component: {fileID: 1025303206}
   - component: {fileID: 1025303205}
   - component: {fileID: 1025303204}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (101)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34602,7 +34619,7 @@ GameObject:
   - component: {fileID: 1037888757}
   - component: {fileID: 1037888756}
   - component: {fileID: 1037888755}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (21)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -34761,7 +34778,7 @@ GameObject:
   - component: {fileID: 1053369558}
   - component: {fileID: 1053369557}
   - component: {fileID: 1053369556}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (117)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34920,7 +34937,7 @@ GameObject:
   - component: {fileID: 1055552841}
   - component: {fileID: 1055552840}
   - component: {fileID: 1055552839}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (65)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -35079,7 +35096,7 @@ GameObject:
   - component: {fileID: 1055604980}
   - component: {fileID: 1055604979}
   - component: {fileID: 1055604978}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35238,7 +35255,7 @@ GameObject:
   - component: {fileID: 1065251577}
   - component: {fileID: 1065251576}
   - component: {fileID: 1065251575}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (129)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35397,7 +35414,7 @@ GameObject:
   - component: {fileID: 1069450297}
   - component: {fileID: 1069450300}
   - component: {fileID: 1069450299}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35554,7 +35571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074614890}
   - component: {fileID: 1074614889}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_2 (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -35640,7 +35657,7 @@ GameObject:
   - component: {fileID: 1079192396}
   - component: {fileID: 1079192395}
   - component: {fileID: 1079192394}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (121)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35799,7 +35816,7 @@ GameObject:
   - component: {fileID: 1085075985}
   - component: {fileID: 1085075984}
   - component: {fileID: 1085075983}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (184)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35956,7 +35973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1088584539}
   - component: {fileID: 1088584538}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_19 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -36042,7 +36059,7 @@ GameObject:
   - component: {fileID: 1089523121}
   - component: {fileID: 1089523120}
   - component: {fileID: 1089523119}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36201,7 +36218,7 @@ GameObject:
   - component: {fileID: 1098673010}
   - component: {fileID: 1098673009}
   - component: {fileID: 1098673008}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (170)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36360,7 +36377,7 @@ GameObject:
   - component: {fileID: 1102380041}
   - component: {fileID: 1102380040}
   - component: {fileID: 1102380039}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (38)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -36517,7 +36534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1104452670}
   - component: {fileID: 1104452669}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_20 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36603,7 +36620,7 @@ GameObject:
   - component: {fileID: 1107646042}
   - component: {fileID: 1107646041}
   - component: {fileID: 1107646040}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (13)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -36762,7 +36779,7 @@ GameObject:
   - component: {fileID: 1108391882}
   - component: {fileID: 1108391885}
   - component: {fileID: 1108391884}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (1)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -36921,7 +36938,7 @@ GameObject:
   - component: {fileID: 1108956621}
   - component: {fileID: 1108956620}
   - component: {fileID: 1108956619}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37080,7 +37097,7 @@ GameObject:
   - component: {fileID: 1114710077}
   - component: {fileID: 1114710076}
   - component: {fileID: 1114710075}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37239,7 +37256,7 @@ GameObject:
   - component: {fileID: 1114757853}
   - component: {fileID: 1114757852}
   - component: {fileID: 1114757851}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (59)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -37400,6 +37417,7 @@ GameObject:
   - component: {fileID: 1121045652}
   - component: {fileID: 1121045651}
   - component: {fileID: 1121045653}
+  - component: {fileID: 1121045654}
   m_Layer: 0
   m_Name: PlayerSprite
   m_TagString: Player
@@ -37591,6 +37609,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1121045654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121045647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957f82a308fa6064db71d8d1b63e0b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOnGround: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!1 &1138078441
 GameObject:
   m_ObjectHideFlags: 0
@@ -37602,7 +37636,7 @@ GameObject:
   - component: {fileID: 1138078442}
   - component: {fileID: 1138078444}
   - component: {fileID: 1138078443}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_4 (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -37734,7 +37768,7 @@ GameObject:
   - component: {fileID: 1142508574}
   - component: {fileID: 1142508573}
   - component: {fileID: 1142508572}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37893,7 +37927,7 @@ GameObject:
   - component: {fileID: 1143141905}
   - component: {fileID: 1143141904}
   - component: {fileID: 1143141903}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38052,7 +38086,7 @@ GameObject:
   - component: {fileID: 1157805780}
   - component: {fileID: 1157805779}
   - component: {fileID: 1157805778}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38211,7 +38245,7 @@ GameObject:
   - component: {fileID: 1159215855}
   - component: {fileID: 1159215854}
   - component: {fileID: 1159215853}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38370,7 +38404,7 @@ GameObject:
   - component: {fileID: 1160497999}
   - component: {fileID: 1160497998}
   - component: {fileID: 1160497997}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38529,7 +38563,7 @@ GameObject:
   - component: {fileID: 1161756186}
   - component: {fileID: 1161756185}
   - component: {fileID: 1161756184}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38688,7 +38722,7 @@ GameObject:
   - component: {fileID: 1164410959}
   - component: {fileID: 1164410958}
   - component: {fileID: 1164410957}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38847,7 +38881,7 @@ GameObject:
   - component: {fileID: 1169562429}
   - component: {fileID: 1169562428}
   - component: {fileID: 1169562427}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (104)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39006,7 +39040,7 @@ GameObject:
   - component: {fileID: 1172851565}
   - component: {fileID: 1172851564}
   - component: {fileID: 1172851563}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (189)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39165,7 +39199,7 @@ GameObject:
   - component: {fileID: 1195925104}
   - component: {fileID: 1195925103}
   - component: {fileID: 1195925102}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39324,7 +39358,7 @@ GameObject:
   - component: {fileID: 1198699556}
   - component: {fileID: 1198699555}
   - component: {fileID: 1198699554}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39483,7 +39517,7 @@ GameObject:
   - component: {fileID: 1205862695}
   - component: {fileID: 1205862694}
   - component: {fileID: 1205862693}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (176)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39642,7 +39676,7 @@ GameObject:
   - component: {fileID: 1214383222}
   - component: {fileID: 1214383221}
   - component: {fileID: 1214383220}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (165)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39799,7 +39833,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1224495387}
   - component: {fileID: 1224495386}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39885,7 +39919,7 @@ GameObject:
   - component: {fileID: 1225349647}
   - component: {fileID: 1225349646}
   - component: {fileID: 1225349645}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_14 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40043,7 +40077,7 @@ GameObject:
   - component: {fileID: 1236354037}
   - component: {fileID: 1236354036}
   - component: {fileID: 1236354038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_6
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -40175,7 +40209,7 @@ GameObject:
   - component: {fileID: 1236678865}
   - component: {fileID: 1236678864}
   - component: {fileID: 1236678863}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (111)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40334,7 +40368,7 @@ GameObject:
   - component: {fileID: 1249619883}
   - component: {fileID: 1249619882}
   - component: {fileID: 1249619881}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40493,7 +40527,7 @@ GameObject:
   - component: {fileID: 1253478047}
   - component: {fileID: 1253478046}
   - component: {fileID: 1253478045}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (163)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40652,7 +40686,7 @@ GameObject:
   - component: {fileID: 1256492667}
   - component: {fileID: 1256492666}
   - component: {fileID: 1256492665}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_2 (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -40811,7 +40845,7 @@ GameObject:
   - component: {fileID: 1259778168}
   - component: {fileID: 1259778167}
   - component: {fileID: 1259778166}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (30)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -40970,7 +41004,7 @@ GameObject:
   - component: {fileID: 1260505732}
   - component: {fileID: 1260505731}
   - component: {fileID: 1260505730}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (167)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41129,7 +41163,7 @@ GameObject:
   - component: {fileID: 1263905903}
   - component: {fileID: 1263905902}
   - component: {fileID: 1263905901}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41288,7 +41322,7 @@ GameObject:
   - component: {fileID: 1264462578}
   - component: {fileID: 1264462577}
   - component: {fileID: 1264462576}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41447,7 +41481,7 @@ GameObject:
   - component: {fileID: 1264843374}
   - component: {fileID: 1264843373}
   - component: {fileID: 1264843372}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41606,7 +41640,7 @@ GameObject:
   - component: {fileID: 1267030292}
   - component: {fileID: 1267030291}
   - component: {fileID: 1267030290}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41765,7 +41799,7 @@ GameObject:
   - component: {fileID: 1267782055}
   - component: {fileID: 1267782054}
   - component: {fileID: 1267782053}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (159)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41924,7 +41958,7 @@ GameObject:
   - component: {fileID: 1273812633}
   - component: {fileID: 1273812632}
   - component: {fileID: 1273812631}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (177)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42083,7 +42117,7 @@ GameObject:
   - component: {fileID: 1280316075}
   - component: {fileID: 1280316074}
   - component: {fileID: 1280316073}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (120)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42242,7 +42276,7 @@ GameObject:
   - component: {fileID: 1285765506}
   - component: {fileID: 1285765505}
   - component: {fileID: 1285765504}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (178)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42401,7 +42435,7 @@ GameObject:
   - component: {fileID: 1287224893}
   - component: {fileID: 1287224892}
   - component: {fileID: 1287224891}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (174)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42560,7 +42594,7 @@ GameObject:
   - component: {fileID: 1290719914}
   - component: {fileID: 1290719913}
   - component: {fileID: 1290719912}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (3)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -42719,7 +42753,7 @@ GameObject:
   - component: {fileID: 1291551991}
   - component: {fileID: 1291551990}
   - component: {fileID: 1291551989}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42878,7 +42912,7 @@ GameObject:
   - component: {fileID: 1292336024}
   - component: {fileID: 1292336023}
   - component: {fileID: 1292336022}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (29)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -43037,7 +43071,7 @@ GameObject:
   - component: {fileID: 1298256163}
   - component: {fileID: 1298256162}
   - component: {fileID: 1298256161}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43196,7 +43230,7 @@ GameObject:
   - component: {fileID: 1302377384}
   - component: {fileID: 1302377387}
   - component: {fileID: 1302377386}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (5)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -43355,7 +43389,7 @@ GameObject:
   - component: {fileID: 1302585417}
   - component: {fileID: 1302585416}
   - component: {fileID: 1302585415}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43514,7 +43548,7 @@ GameObject:
   - component: {fileID: 1302861920}
   - component: {fileID: 1302861919}
   - component: {fileID: 1302861918}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (144)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43673,7 +43707,7 @@ GameObject:
   - component: {fileID: 1303555872}
   - component: {fileID: 1303555871}
   - component: {fileID: 1303555870}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43832,7 +43866,7 @@ GameObject:
   - component: {fileID: 1304876997}
   - component: {fileID: 1304876996}
   - component: {fileID: 1304876995}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (35)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -43991,7 +44025,7 @@ GameObject:
   - component: {fileID: 1313728593}
   - component: {fileID: 1313728592}
   - component: {fileID: 1313728591}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (154)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44150,7 +44184,7 @@ GameObject:
   - component: {fileID: 1315698082}
   - component: {fileID: 1315698081}
   - component: {fileID: 1315698080}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44309,7 +44343,7 @@ GameObject:
   - component: {fileID: 1317471420}
   - component: {fileID: 1317471419}
   - component: {fileID: 1317471418}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (14)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -44468,7 +44502,7 @@ GameObject:
   - component: {fileID: 1321247230}
   - component: {fileID: 1321247229}
   - component: {fileID: 1321247228}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44627,7 +44661,7 @@ GameObject:
   - component: {fileID: 1321391334}
   - component: {fileID: 1321391333}
   - component: {fileID: 1321391332}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (148)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44786,7 +44820,7 @@ GameObject:
   - component: {fileID: 1328939344}
   - component: {fileID: 1328939347}
   - component: {fileID: 1328939346}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -44945,7 +44979,7 @@ GameObject:
   - component: {fileID: 1350472591}
   - component: {fileID: 1350472590}
   - component: {fileID: 1350472589}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45104,7 +45138,7 @@ GameObject:
   - component: {fileID: 1354295555}
   - component: {fileID: 1354295554}
   - component: {fileID: 1354295553}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45263,7 +45297,7 @@ GameObject:
   - component: {fileID: 1361397153}
   - component: {fileID: 1361397152}
   - component: {fileID: 1361397151}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (151)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45422,7 +45456,7 @@ GameObject:
   - component: {fileID: 1366246268}
   - component: {fileID: 1366246267}
   - component: {fileID: 1366246266}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_14 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45581,7 +45615,7 @@ GameObject:
   - component: {fileID: 1374340864}
   - component: {fileID: 1374340863}
   - component: {fileID: 1374340862}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45740,7 +45774,7 @@ GameObject:
   - component: {fileID: 1376345542}
   - component: {fileID: 1376345541}
   - component: {fileID: 1376345540}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (160)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45899,7 +45933,7 @@ GameObject:
   - component: {fileID: 1377653731}
   - component: {fileID: 1377653730}
   - component: {fileID: 1377653729}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46058,7 +46092,7 @@ GameObject:
   - component: {fileID: 1380525391}
   - component: {fileID: 1380525390}
   - component: {fileID: 1380525389}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (164)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46217,7 +46251,7 @@ GameObject:
   - component: {fileID: 1390781799}
   - component: {fileID: 1390781798}
   - component: {fileID: 1390781797}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46376,7 +46410,7 @@ GameObject:
   - component: {fileID: 1393118086}
   - component: {fileID: 1393118085}
   - component: {fileID: 1393118084}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (24)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -46551,7 +46585,7 @@ GameObject:
   - component: {fileID: 1401957544}
   - component: {fileID: 1401957543}
   - component: {fileID: 1401957545}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_4 (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -46683,7 +46717,7 @@ GameObject:
   - component: {fileID: 1406860604}
   - component: {fileID: 1406860603}
   - component: {fileID: 1406860602}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (133)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46841,7 +46875,7 @@ GameObject:
   - component: {fileID: 1411684575}
   - component: {fileID: 1411684577}
   - component: {fileID: 1411684576}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_3 (11)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -46973,7 +47007,7 @@ GameObject:
   - component: {fileID: 1414355855}
   - component: {fileID: 1414355854}
   - component: {fileID: 1414355853}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47132,7 +47166,7 @@ GameObject:
   - component: {fileID: 1429011069}
   - component: {fileID: 1429011068}
   - component: {fileID: 1429011067}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47291,7 +47325,7 @@ GameObject:
   - component: {fileID: 1430987346}
   - component: {fileID: 1430987345}
   - component: {fileID: 1430987344}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (12)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -47449,7 +47483,7 @@ GameObject:
   - component: {fileID: 1440060597}
   - component: {fileID: 1440060596}
   - component: {fileID: 1440060598}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_29
   m_TagString: Falling
   m_Icon: {fileID: 0}
@@ -47547,7 +47581,7 @@ GameObject:
   - component: {fileID: 1441940153}
   - component: {fileID: 1441940152}
   - component: {fileID: 1441940151}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47704,7 +47738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1444231907}
   - component: {fileID: 1444231906}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47790,7 +47824,7 @@ GameObject:
   - component: {fileID: 1444294195}
   - component: {fileID: 1444294194}
   - component: {fileID: 1444294193}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (12)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -47949,7 +47983,7 @@ GameObject:
   - component: {fileID: 1456688188}
   - component: {fileID: 1456688187}
   - component: {fileID: 1456688186}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (26)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -48108,7 +48142,7 @@ GameObject:
   - component: {fileID: 1457540791}
   - component: {fileID: 1457540790}
   - component: {fileID: 1457540789}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48267,7 +48301,7 @@ GameObject:
   - component: {fileID: 1459176321}
   - component: {fileID: 1459176320}
   - component: {fileID: 1459176319}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (102)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48426,7 +48460,7 @@ GameObject:
   - component: {fileID: 1472598115}
   - component: {fileID: 1472598114}
   - component: {fileID: 1472598113}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48585,7 +48619,7 @@ GameObject:
   - component: {fileID: 1487754456}
   - component: {fileID: 1487754455}
   - component: {fileID: 1487754454}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48744,7 +48778,7 @@ GameObject:
   - component: {fileID: 1499294073}
   - component: {fileID: 1499294072}
   - component: {fileID: 1499294071}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48903,7 +48937,7 @@ GameObject:
   - component: {fileID: 1517031270}
   - component: {fileID: 1517031269}
   - component: {fileID: 1517031268}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49062,7 +49096,7 @@ GameObject:
   - component: {fileID: 1519088494}
   - component: {fileID: 1519088493}
   - component: {fileID: 1519088492}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49221,7 +49255,7 @@ GameObject:
   - component: {fileID: 1522553123}
   - component: {fileID: 1522553122}
   - component: {fileID: 1522553121}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (172)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49397,7 +49431,7 @@ GameObject:
   - component: {fileID: 1531275823}
   - component: {fileID: 1531275822}
   - component: {fileID: 1531275821}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (53)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -49556,7 +49590,7 @@ GameObject:
   - component: {fileID: 1536214661}
   - component: {fileID: 1536214660}
   - component: {fileID: 1536214659}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (179)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49715,7 +49749,7 @@ GameObject:
   - component: {fileID: 1551182918}
   - component: {fileID: 1551182917}
   - component: {fileID: 1551182916}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (112)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49872,7 +49906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1551469510}
   - component: {fileID: 1551469509}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49958,7 +49992,7 @@ GameObject:
   - component: {fileID: 1551751400}
   - component: {fileID: 1551751403}
   - component: {fileID: 1551751402}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_1
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -50117,7 +50151,7 @@ GameObject:
   - component: {fileID: 1557206621}
   - component: {fileID: 1557206624}
   - component: {fileID: 1557206623}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50275,7 +50309,7 @@ GameObject:
   - component: {fileID: 1557388368}
   - component: {fileID: 1557388370}
   - component: {fileID: 1557388369}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_2 (10)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -50407,7 +50441,7 @@ GameObject:
   - component: {fileID: 1562881640}
   - component: {fileID: 1562881639}
   - component: {fileID: 1562881638}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (31)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -50566,7 +50600,7 @@ GameObject:
   - component: {fileID: 1568192269}
   - component: {fileID: 1568192268}
   - component: {fileID: 1568192267}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (37)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -50725,7 +50759,7 @@ GameObject:
   - component: {fileID: 1575194005}
   - component: {fileID: 1575194004}
   - component: {fileID: 1575194003}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50884,7 +50918,7 @@ GameObject:
   - component: {fileID: 1580161678}
   - component: {fileID: 1580161677}
   - component: {fileID: 1580161676}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51043,7 +51077,7 @@ GameObject:
   - component: {fileID: 1580906240}
   - component: {fileID: 1580906239}
   - component: {fileID: 1580906238}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51202,7 +51236,7 @@ GameObject:
   - component: {fileID: 1593640500}
   - component: {fileID: 1593640499}
   - component: {fileID: 1593640498}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (18)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -51361,7 +51395,7 @@ GameObject:
   - component: {fileID: 1595482006}
   - component: {fileID: 1595482005}
   - component: {fileID: 1595482004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_1 (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -51520,7 +51554,7 @@ GameObject:
   - component: {fileID: 1602837475}
   - component: {fileID: 1602837474}
   - component: {fileID: 1602837473}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (115)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51679,7 +51713,7 @@ GameObject:
   - component: {fileID: 1626449837}
   - component: {fileID: 1626449840}
   - component: {fileID: 1626449839}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_3
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -51838,7 +51872,7 @@ GameObject:
   - component: {fileID: 1654356726}
   - component: {fileID: 1654356725}
   - component: {fileID: 1654356724}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (99)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51997,7 +52031,7 @@ GameObject:
   - component: {fileID: 1657977473}
   - component: {fileID: 1657977472}
   - component: {fileID: 1657977471}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (27)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -52156,7 +52190,7 @@ GameObject:
   - component: {fileID: 1659442208}
   - component: {fileID: 1659442207}
   - component: {fileID: 1659442206}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (52)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -52315,7 +52349,7 @@ GameObject:
   - component: {fileID: 1661895968}
   - component: {fileID: 1661895967}
   - component: {fileID: 1661895966}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_3 (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -52474,7 +52508,7 @@ GameObject:
   - component: {fileID: 1663028264}
   - component: {fileID: 1663028267}
   - component: {fileID: 1663028266}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -52633,7 +52667,7 @@ GameObject:
   - component: {fileID: 1663805352}
   - component: {fileID: 1663805351}
   - component: {fileID: 1663805350}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52792,7 +52826,7 @@ GameObject:
   - component: {fileID: 1668887122}
   - component: {fileID: 1668887121}
   - component: {fileID: 1668887120}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (9)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -53110,7 +53144,7 @@ GameObject:
   - component: {fileID: 1672550962}
   - component: {fileID: 1672550961}
   - component: {fileID: 1672550960}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (136)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53286,7 +53320,7 @@ GameObject:
   - component: {fileID: 1680439236}
   - component: {fileID: 1680439235}
   - component: {fileID: 1680439234}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (190)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53445,7 +53479,7 @@ GameObject:
   - component: {fileID: 1685493528}
   - component: {fileID: 1685493527}
   - component: {fileID: 1685493526}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53604,7 +53638,7 @@ GameObject:
   - component: {fileID: 1687925253}
   - component: {fileID: 1687925252}
   - component: {fileID: 1687925251}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (55)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -53763,7 +53797,7 @@ GameObject:
   - component: {fileID: 1688733232}
   - component: {fileID: 1688733231}
   - component: {fileID: 1688733230}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_4 (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -53922,7 +53956,7 @@ GameObject:
   - component: {fileID: 1688810471}
   - component: {fileID: 1688810470}
   - component: {fileID: 1688810469}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54081,7 +54115,7 @@ GameObject:
   - component: {fileID: 1690347229}
   - component: {fileID: 1690347228}
   - component: {fileID: 1690347227}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (15)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -54239,7 +54273,7 @@ GameObject:
   - component: {fileID: 1694461137}
   - component: {fileID: 1694461139}
   - component: {fileID: 1694461138}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_24 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54371,7 +54405,7 @@ GameObject:
   - component: {fileID: 1698079003}
   - component: {fileID: 1698079002}
   - component: {fileID: 1698079001}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54528,7 +54562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1698376973}
   - component: {fileID: 1698376972}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_20 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54613,7 +54647,7 @@ GameObject:
   - component: {fileID: 1699114454}
   - component: {fileID: 1699114456}
   - component: {fileID: 1699114455}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54745,7 +54779,7 @@ GameObject:
   - component: {fileID: 1699538858}
   - component: {fileID: 1699538857}
   - component: {fileID: 1699538856}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (146)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54904,7 +54938,7 @@ GameObject:
   - component: {fileID: 1700856793}
   - component: {fileID: 1700856796}
   - component: {fileID: 1700856795}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -55063,7 +55097,7 @@ GameObject:
   - component: {fileID: 1717162228}
   - component: {fileID: 1717162227}
   - component: {fileID: 1717162226}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55222,7 +55256,7 @@ GameObject:
   - component: {fileID: 1722931543}
   - component: {fileID: 1722931542}
   - component: {fileID: 1722931541}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55381,7 +55415,7 @@ GameObject:
   - component: {fileID: 1734658007}
   - component: {fileID: 1734658006}
   - component: {fileID: 1734658005}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (54)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -55540,7 +55574,7 @@ GameObject:
   - component: {fileID: 1738204305}
   - component: {fileID: 1738204304}
   - component: {fileID: 1738204303}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55697,7 +55731,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1741383273}
   - component: {fileID: 1741383272}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_2 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -55783,7 +55817,7 @@ GameObject:
   - component: {fileID: 1746948609}
   - component: {fileID: 1746948608}
   - component: {fileID: 1746948607}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (61)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -55942,7 +55976,7 @@ GameObject:
   - component: {fileID: 1747468401}
   - component: {fileID: 1747468404}
   - component: {fileID: 1747468403}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -56101,7 +56135,7 @@ GameObject:
   - component: {fileID: 1774198206}
   - component: {fileID: 1774198205}
   - component: {fileID: 1774198204}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56260,7 +56294,7 @@ GameObject:
   - component: {fileID: 1810117827}
   - component: {fileID: 1810117826}
   - component: {fileID: 1810117825}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (47)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -56419,7 +56453,7 @@ GameObject:
   - component: {fileID: 1817532086}
   - component: {fileID: 1817532085}
   - component: {fileID: 1817532084}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_3 (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -56578,7 +56612,7 @@ GameObject:
   - component: {fileID: 1820330694}
   - component: {fileID: 1820330693}
   - component: {fileID: 1820330692}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_4 (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -56737,7 +56771,7 @@ GameObject:
   - component: {fileID: 1823261923}
   - component: {fileID: 1823261922}
   - component: {fileID: 1823261921}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56896,7 +56930,7 @@ GameObject:
   - component: {fileID: 1829443885}
   - component: {fileID: 1829443884}
   - component: {fileID: 1829443883}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57055,7 +57089,7 @@ GameObject:
   - component: {fileID: 1831914371}
   - component: {fileID: 1831914370}
   - component: {fileID: 1831914369}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (16)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -57214,7 +57248,7 @@ GameObject:
   - component: {fileID: 1844961631}
   - component: {fileID: 1844961630}
   - component: {fileID: 1844961629}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57373,7 +57407,7 @@ GameObject:
   - component: {fileID: 1851165943}
   - component: {fileID: 1851165942}
   - component: {fileID: 1851165941}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57532,7 +57566,7 @@ GameObject:
   - component: {fileID: 1857836948}
   - component: {fileID: 1857836947}
   - component: {fileID: 1857836946}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (173)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57691,7 +57725,7 @@ GameObject:
   - component: {fileID: 1863116723}
   - component: {fileID: 1863116722}
   - component: {fileID: 1863116721}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (103)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57850,7 +57884,7 @@ GameObject:
   - component: {fileID: 1865170232}
   - component: {fileID: 1865170231}
   - component: {fileID: 1865170230}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (8)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -58009,7 +58043,7 @@ GameObject:
   - component: {fileID: 1866506342}
   - component: {fileID: 1866506341}
   - component: {fileID: 1866506340}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (143)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58203,7 +58237,7 @@ GameObject:
   - component: {fileID: 1872273693}
   - component: {fileID: 1872273692}
   - component: {fileID: 1872273691}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (100)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58362,7 +58396,7 @@ GameObject:
   - component: {fileID: 1874743581}
   - component: {fileID: 1874743580}
   - component: {fileID: 1874743579}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58521,7 +58555,7 @@ GameObject:
   - component: {fileID: 1880435056}
   - component: {fileID: 1880435055}
   - component: {fileID: 1880435054}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (64)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -58680,7 +58714,7 @@ GameObject:
   - component: {fileID: 1884534912}
   - component: {fileID: 1884534911}
   - component: {fileID: 1884534910}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (106)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58839,7 +58873,7 @@ GameObject:
   - component: {fileID: 1892980956}
   - component: {fileID: 1892980955}
   - component: {fileID: 1892980954}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58998,7 +59032,7 @@ GameObject:
   - component: {fileID: 1895300226}
   - component: {fileID: 1895300225}
   - component: {fileID: 1895300224}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59155,7 +59189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1898163709}
   - component: {fileID: 1898163708}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59241,7 +59275,7 @@ GameObject:
   - component: {fileID: 1898701309}
   - component: {fileID: 1898701308}
   - component: {fileID: 1898701307}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59400,7 +59434,7 @@ GameObject:
   - component: {fileID: 1899722757}
   - component: {fileID: 1899722756}
   - component: {fileID: 1899722755}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (63)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -59559,7 +59593,7 @@ GameObject:
   - component: {fileID: 1913955098}
   - component: {fileID: 1913955097}
   - component: {fileID: 1913955096}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (11)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -59718,7 +59752,7 @@ GameObject:
   - component: {fileID: 1924140011}
   - component: {fileID: 1924140010}
   - component: {fileID: 1924140009}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59877,7 +59911,7 @@ GameObject:
   - component: {fileID: 1931100036}
   - component: {fileID: 1931100035}
   - component: {fileID: 1931100034}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60036,7 +60070,7 @@ GameObject:
   - component: {fileID: 1934659015}
   - component: {fileID: 1934659014}
   - component: {fileID: 1934659013}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60195,7 +60229,7 @@ GameObject:
   - component: {fileID: 1936213937}
   - component: {fileID: 1936213936}
   - component: {fileID: 1936213935}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (46)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -60354,7 +60388,7 @@ GameObject:
   - component: {fileID: 1942555592}
   - component: {fileID: 1942555591}
   - component: {fileID: 1942555590}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (17)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -60513,7 +60547,7 @@ GameObject:
   - component: {fileID: 1951709602}
   - component: {fileID: 1951709601}
   - component: {fileID: 1951709600}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (17)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -60672,7 +60706,7 @@ GameObject:
   - component: {fileID: 1956737037}
   - component: {fileID: 1956737036}
   - component: {fileID: 1956737035}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60831,7 +60865,7 @@ GameObject:
   - component: {fileID: 1957605435}
   - component: {fileID: 1957605434}
   - component: {fileID: 1957605433}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (66)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -60990,7 +61024,7 @@ GameObject:
   - component: {fileID: 1963562833}
   - component: {fileID: 1963562832}
   - component: {fileID: 1963562831}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (72)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -61149,7 +61183,7 @@ GameObject:
   - component: {fileID: 1965801213}
   - component: {fileID: 1965801212}
   - component: {fileID: 1965801211}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (20)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -61308,7 +61342,7 @@ GameObject:
   - component: {fileID: 1966949276}
   - component: {fileID: 1966949275}
   - component: {fileID: 1966949274}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61467,7 +61501,7 @@ GameObject:
   - component: {fileID: 1971949878}
   - component: {fileID: 1971949877}
   - component: {fileID: 1971949876}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61626,7 +61660,7 @@ GameObject:
   - component: {fileID: 1972127137}
   - component: {fileID: 1972127136}
   - component: {fileID: 1972127135}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (191)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61785,7 +61819,7 @@ GameObject:
   - component: {fileID: 1986477344}
   - component: {fileID: 1986477343}
   - component: {fileID: 1986477342}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_3 (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -61944,7 +61978,7 @@ GameObject:
   - component: {fileID: 1988737227}
   - component: {fileID: 1988737226}
   - component: {fileID: 1988737225}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62103,7 +62137,7 @@ GameObject:
   - component: {fileID: 1991809131}
   - component: {fileID: 1991809130}
   - component: {fileID: 1991809129}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (132)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62262,7 +62296,7 @@ GameObject:
   - component: {fileID: 1999859974}
   - component: {fileID: 1999859973}
   - component: {fileID: 1999859972}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62419,7 +62453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2002953085}
   - component: {fileID: 2002953084}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62505,7 +62539,7 @@ GameObject:
   - component: {fileID: 2014276829}
   - component: {fileID: 2014276828}
   - component: {fileID: 2014276827}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (139)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62664,7 +62698,7 @@ GameObject:
   - component: {fileID: 2017127494}
   - component: {fileID: 2017127493}
   - component: {fileID: 2017127492}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62823,7 +62857,7 @@ GameObject:
   - component: {fileID: 2017842912}
   - component: {fileID: 2017842911}
   - component: {fileID: 2017842910}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (8)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -62982,7 +63016,7 @@ GameObject:
   - component: {fileID: 2021824028}
   - component: {fileID: 2021824031}
   - component: {fileID: 2021824030}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -63141,7 +63175,7 @@ GameObject:
   - component: {fileID: 2025450289}
   - component: {fileID: 2025450292}
   - component: {fileID: 2025450291}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_5 (3)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -63300,7 +63334,7 @@ GameObject:
   - component: {fileID: 2027694083}
   - component: {fileID: 2027694082}
   - component: {fileID: 2027694081}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (152)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63459,7 +63493,7 @@ GameObject:
   - component: {fileID: 2029212194}
   - component: {fileID: 2029212193}
   - component: {fileID: 2029212192}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (62)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -63618,7 +63652,7 @@ GameObject:
   - component: {fileID: 2042271153}
   - component: {fileID: 2042271152}
   - component: {fileID: 2042271151}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63777,7 +63811,7 @@ GameObject:
   - component: {fileID: 2042875009}
   - component: {fileID: 2042875008}
   - component: {fileID: 2042875007}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_1 (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -63936,7 +63970,7 @@ GameObject:
   - component: {fileID: 2055268820}
   - component: {fileID: 2055268819}
   - component: {fileID: 2055268818}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64095,7 +64129,7 @@ GameObject:
   - component: {fileID: 2058727051}
   - component: {fileID: 2058727050}
   - component: {fileID: 2058727049}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (147)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64254,7 +64288,7 @@ GameObject:
   - component: {fileID: 2063388070}
   - component: {fileID: 2063388069}
   - component: {fileID: 2063388068}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (145)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64411,7 +64445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2066828861}
   - component: {fileID: 2066828860}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_22 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64497,7 +64531,7 @@ GameObject:
   - component: {fileID: 2075305858}
   - component: {fileID: 2075305857}
   - component: {fileID: 2075305856}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64656,7 +64690,7 @@ GameObject:
   - component: {fileID: 2078412966}
   - component: {fileID: 2078412965}
   - component: {fileID: 2078412964}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (73)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -64815,7 +64849,7 @@ GameObject:
   - component: {fileID: 2086295602}
   - component: {fileID: 2086295601}
   - component: {fileID: 2086295600}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (123)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64974,7 +65008,7 @@ GameObject:
   - component: {fileID: 2087237151}
   - component: {fileID: 2087237150}
   - component: {fileID: 2087237149}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65133,7 +65167,7 @@ GameObject:
   - component: {fileID: 2090934403}
   - component: {fileID: 2090934402}
   - component: {fileID: 2090934401}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (166)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65292,7 +65326,7 @@ GameObject:
   - component: {fileID: 2101045075}
   - component: {fileID: 2101045074}
   - component: {fileID: 2101045073}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (127)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65451,7 +65485,7 @@ GameObject:
   - component: {fileID: 2106178512}
   - component: {fileID: 2106178511}
   - component: {fileID: 2106178510}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (71)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -65610,7 +65644,7 @@ GameObject:
   - component: {fileID: 2106185676}
   - component: {fileID: 2106185675}
   - component: {fileID: 2106185674}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_14 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65769,7 +65803,7 @@ GameObject:
   - component: {fileID: 2108462467}
   - component: {fileID: 2108462466}
   - component: {fileID: 2108462465}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (156)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65928,7 +65962,7 @@ GameObject:
   - component: {fileID: 2109320336}
   - component: {fileID: 2109320335}
   - component: {fileID: 2109320334}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (108)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66087,7 +66121,7 @@ GameObject:
   - component: {fileID: 2112789078}
   - component: {fileID: 2112789077}
   - component: {fileID: 2112789076}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66246,7 +66280,7 @@ GameObject:
   - component: {fileID: 2114649316}
   - component: {fileID: 2114649315}
   - component: {fileID: 2114649314}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66405,7 +66439,7 @@ GameObject:
   - component: {fileID: 2119585323}
   - component: {fileID: 2119585322}
   - component: {fileID: 2119585321}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66564,7 +66598,7 @@ GameObject:
   - component: {fileID: 2122326001}
   - component: {fileID: 2122326000}
   - component: {fileID: 2122325999}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66723,7 +66757,7 @@ GameObject:
   - component: {fileID: 2124821143}
   - component: {fileID: 2124821142}
   - component: {fileID: 2124821141}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (149)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66882,7 +66916,7 @@ GameObject:
   - component: {fileID: 2125307821}
   - component: {fileID: 2125307820}
   - component: {fileID: 2125307819}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (28)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -67041,7 +67075,7 @@ GameObject:
   - component: {fileID: 2126004680}
   - component: {fileID: 2126004679}
   - component: {fileID: 2126004678}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67200,7 +67234,7 @@ GameObject:
   - component: {fileID: 2128774761}
   - component: {fileID: 2128774760}
   - component: {fileID: 2128774759}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: water (11)
   m_TagString: Kill
   m_Icon: {fileID: 0}
@@ -67359,7 +67393,7 @@ GameObject:
   - component: {fileID: 2130527054}
   - component: {fileID: 2130527053}
   - component: {fileID: 2130527052}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_16 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67518,7 +67552,7 @@ GameObject:
   - component: {fileID: 2142365135}
   - component: {fileID: 2142365134}
   - component: {fileID: 2142365133}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: background platforms_15 (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

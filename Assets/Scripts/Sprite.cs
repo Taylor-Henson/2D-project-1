@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     #region variables and references
-    bool isOnGround = false;
+   
     [Header("Variables")]
     public float jumpForce = 20;
     public float speed = 2f;
@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
     public float yDistance;
     public bool inAttackRange;
     public bool enemyAlive;
+   
 
 
     [Header("References")]
@@ -27,7 +28,11 @@ public class PlayerController : MonoBehaviour
     public SpriteRenderer playerSr;
     public GameObject box;
     private EnemyScript enemyScript;
+   
     GameObject enemy;
+    private Helper helper;
+
+   
     #endregion
 
     #region start and update
@@ -40,6 +45,7 @@ public class PlayerController : MonoBehaviour
        box = GameObject.Find("Box 2");
        enemyScript = GameObject.Find("Enemy").GetComponent<EnemyScript>();
        enemy = GameObject.Find("Enemy");
+       helper = GetComponent<Helper>();
     }
 
     // Update is called once per frame
@@ -59,7 +65,7 @@ public class PlayerController : MonoBehaviour
 
         #endregion
 
-        #region getpositions
+    #region getpositions
         void GetPositions()
     {
         x = transform.position.x;
@@ -106,10 +112,10 @@ public class PlayerController : MonoBehaviour
     #region jumping and landing
     void Jump() // enables jumping animation and forces
     { 
-        if (Input.GetKeyDown("space") && isOnGround)
+        if (Input.GetKeyDown("space") && helper.isOnGround == true  )
         {
             playerRb.AddForce(new Vector3(0, 1, 0) * jumpForce, ForceMode2D.Impulse);
-            isOnGround = false;
+            helper.isOnGround = false;
             playerAnim.SetBool("jump", true);
         }
     }
@@ -124,13 +130,13 @@ public class PlayerController : MonoBehaviour
 
     void Landing()
     {
-        if(isOnGround == true)
+        if(helper.isOnGround == true)
         {
             playerAnim.SetBool("fall", false);
             playerAnim.SetBool("jump", false);
             playerAnim.SetBool("idle", true);
         }
-        if(isOnGround == false)
+        if(helper.isOnGround == false)
         {
             playerAnim.SetBool("idle", false);
         }
@@ -157,15 +163,15 @@ public class PlayerController : MonoBehaviour
     #region collisions 
     void OnCollisionEnter2D(Collision2D collision) // when the sprite touches the ground 
     {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isOnGround = true;
-        }
-
         if (collision.gameObject.CompareTag("Kill"))
         {
             transform.position = new Vector3(xSpawn, ySpawn, 0);
         }
     }
     #endregion
+
+    
+    
+    
 }
+
