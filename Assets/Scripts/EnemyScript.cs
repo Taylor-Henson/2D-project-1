@@ -16,6 +16,9 @@ public class EnemyScript : MonoBehaviour
     public int health = 100;
     int patrolSpeed = 1;
     int speedMultiplier = 1;
+    float offset;
+    float newPos;
+    public bool isOnGround = false;
 
 
 
@@ -27,6 +30,7 @@ public class EnemyScript : MonoBehaviour
     private PlayerController playerController;
     GameObject enemy;
     private Helper helper;
+    public LayerMask groundLayer;
     #endregion
 
     #region start and update
@@ -47,6 +51,7 @@ public class EnemyScript : MonoBehaviour
         GetPositions();
         Death();
         Patrolling();
+        GroundCheck();
     }
     #endregion
 
@@ -130,19 +135,42 @@ public class EnemyScript : MonoBehaviour
         if (enemySpeed < 0)
         {
             sr.flipX = true;
+            offset = -0.4f;
         }
         else
         {
             sr.flipX = false;
+            offset = 0.4f;
         }
 
-        if (!helper.isOnGround)
+        if (!isOnGround)
         {
             enemySpeed *= -1;
+            isOnGround = true;
         }
 
         rb.velocity = new Vector2(enemySpeed / 2, rb.velocityY);
     }
 
+    #endregion
+
+    #region groundcheck
+    void GroundCheck()
+    {
+        Vector2 position = transform.position;
+        Vector2 direction = Vector2.down;
+        float distance = 0.5f;
+
+        Debug.DrawRay(position + new Vector2(offset, 0), direction, Color.green);
+        RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundLayer);
+        if (hit.collider != null)
+        {
+            isOnGround = true;
+        }
+        else
+        {
+            isOnGround = false;
+        }
+    }
     #endregion
 }
