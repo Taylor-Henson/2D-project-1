@@ -69,8 +69,8 @@ public class EnemyScript : MonoBehaviour
     {
         GetPositions();
         Death();
-        Patrolling();
         GroundCheck();
+        PlayerCheck();
     }
     #endregion
 
@@ -88,45 +88,79 @@ public class EnemyScript : MonoBehaviour
             distanceToPlayerX = ex - x;
             distanceToPlayerY = ey - y;
 
-            if (distanceToPlayerX > -3 && distanceToPlayerX < 3)
-            {
-                closeToPlayer = true;
-            }
-            else
-            {
-                closeToPlayer = false;
-            }
-
             if (closeToPlayer == true)
             {
-                //FollowPlayer();
-                anim.SetBool("walk", true);
-                anim.SetBool("idle", false);
+                Aggresive();
+                aggresiveState = true;
+                
             }
             else
             {
-                anim.SetBool("walk", false);
+                aggresiveState  = false;
+                Patrolling();
+            }
+            
+            if (rb.velocityX < 0)
+            {
+                anim.SetBool("idle", false);
+                anim.SetBool("walk", true);
+            }
+
+            else if (rb.velocityX > 0)
+            {
+                anim.SetBool("idle", false);
+                anim.SetBool("walk", true);
+            }
+            else
+            {
                 anim.SetBool("idle", true);
+                anim.SetBool("walk", false);
             }
         }
-       
+
     }
     #endregion
 
     #region checking for player
 
-    void FollowPlayer()
+    void PlayerCheck()
     {
-       
-        if(distanceToPlayerX < 0)
+        if (distanceToPlayerX > -2 && distanceToPlayerX < 2)
         {
-            rb.velocity = new Vector2(-enemySpeed, 0);
+            closeToPlayer = true;
         }
         else
         {
-            rb.velocity = new Vector2(enemySpeed, 0);
+            closeToPlayer = false;
         }
-
+    }
+    void Aggresive()
+    {
+        if (aggresiveState)
+        {
+            //make enemy run to player
+            if (distanceToPlayerX > 0)
+            {
+                rb.velocity = new Vector2(enemySpeed, 0);
+            }
+            else if (distanceToPlayerX < 0)
+            {
+                rb.velocity = new Vector2(-enemySpeed, 0);
+            }
+            else if (distanceToPlayerX == 0)
+            {
+                rb.velocity = new Vector2(0, 0);
+            }
+            //make enemy face player
+            if(distanceToPlayerX > 0)
+            {
+                sr.flipX = false;
+            }
+            else if(distanceToPlayerX < 0)
+            {
+                sr.flipX = true;
+            }
+        }
        
     }
     #endregion
@@ -163,16 +197,25 @@ public class EnemyScript : MonoBehaviour
 
     void Patrolling()
     {
+        //face direction walking
+        if(!aggresiveState)
+        if(rb.velocityX < 0)
+        {
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
+
        if(aggresiveState == false)
         {
             if (enemySpeed < 0)
             {
-                sr.flipX = true;
                 offset = -0.2f;
             }
             else
-            {
-                sr.flipX = false;
+            { 
                 offset = 0.2f;
             }
 

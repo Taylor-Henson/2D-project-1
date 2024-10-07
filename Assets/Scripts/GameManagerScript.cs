@@ -13,6 +13,7 @@ public class GameManagerScript : MonoBehaviour
     float x = 12.54012f;
 
     public GameObject blockingPath;
+    public GameObject player;
     #endregion
 
     #region start and update
@@ -20,12 +21,14 @@ public class GameManagerScript : MonoBehaviour
     void Start()
     {
         blockingPath = GameObject.Find("BlockPathBlocks");
+        player = GameObject.Find("Player");
     }
     
     // Update is called once per frame
     void Update()
     {
         CountBoxes();
+        Death();
     }
     #endregion
 
@@ -41,6 +44,17 @@ public class GameManagerScript : MonoBehaviour
     void OpenPath()
     {
         blockingPath.transform.position = new Vector2(x, -2f);
+    }
+
+    void Death()
+    {
+        if(player == null)
+        {
+            if(Input.GetKeyDown("r"))
+            {
+                SceneManager.LoadScene(0);
+            }
+        }
     }
     #endregion
 }
