@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,30 +10,38 @@ public class PlayerController : MonoBehaviour
     [Header("Variables")]
     public float jumpForce = 20;
     public float speed = 2f;
+
     float xSpawn = -4.61f;
     float ySpawn = -1.51f;
+
     float x;
     float y;
     float ex;
     float ey;
     public float xDistance;
     public float yDistance;
+
     public bool inAttackRange;
     public bool enemyAlive;
-   
 
+    int xBound = 13;
+    int yBound = -3;
+
+    bool playerActive = true;
 
     [Header("References")]
     public Rigidbody2D playerRb;
     public Animator playerAnim;
     public SpriteRenderer playerSr;
+
     public GameObject box;
+
     private EnemyScript enemyScript;
+    private CameraFollowPlayer cameraScript;
+    public GameManagerScript gameManagerScript;
    
     GameObject enemy;
-    private Helper helper;
-
-   
+    Helper helper;
     #endregion
 
     #region start and update
@@ -42,10 +51,15 @@ public class PlayerController : MonoBehaviour
        playerRb = GetComponent<Rigidbody2D>();
        playerAnim = GetComponent<Animator>();
        playerSr = GetComponent<SpriteRenderer>();
+
        box = GameObject.Find("Box 2");
-       enemyScript = GameObject.Find("Enemy").GetComponent<EnemyScript>();
        enemy = GameObject.Find("Enemy");
+
+       enemyScript = GetComponent<EnemyScript>();
        helper = GetComponent<Helper>();
+       cameraScript = GetComponent<CameraFollowPlayer>();
+       gameManagerScript = GetComponent<GameManagerScript>();
+
     }
 
     // Update is called once per frame
@@ -56,6 +70,7 @@ public class PlayerController : MonoBehaviour
         Falling();
         Landing();
         Attacking();
+        OutOfBounds();
 
         if (enemyAlive == true)
         {
@@ -88,11 +103,11 @@ public class PlayerController : MonoBehaviour
     #endregion
 
     #region movement
-    void MoveSprite() // moves sprite in four planes with optional WASD controls as well as arrow keys
+    void MoveSprite() // moves sprite in two planes with optional AD controls as well as arrow keys
     {
         playerAnim.SetBool("walk", false);
 
-        if (Input.GetKey("right") == true || Input.GetKey("d") == true)
+        if (Input.GetKey("d") && playerActive)
         {
             playerRb.velocity = new Vector2(3f * speed, playerRb.velocity.y);
             playerAnim.SetBool("walk", true);
@@ -100,7 +115,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        if (Input.GetKey("left") == true || Input.GetKey("a") == true)
+        if (Input.GetKey("a") && playerActive)
         {
             playerRb.velocity = new Vector2(-3f * speed, playerRb.velocity.y);
             playerAnim.SetBool("walk", true);
@@ -112,7 +127,7 @@ public class PlayerController : MonoBehaviour
     #region jumping and landing
     void Jump() // enables jumping animation and forces
     { 
-        if (Input.GetKeyDown("space") && helper.isOnGround == true  )
+        if (Input.GetKeyDown("space") && helper.isOnGround && playerActive)
         {
             playerRb.AddForce(new Vector3(0, 1, 0) * jumpForce, ForceMode2D.Impulse);
             helper.isOnGround = false;
@@ -123,9 +138,9 @@ public class PlayerController : MonoBehaviour
     void Falling()
     {
        if(playerRb.velocity.y < 0)
-        {
+       {
             playerAnim.SetBool("fall", true);
-        }
+       }
     }
 
     void Landing()
@@ -136,6 +151,7 @@ public class PlayerController : MonoBehaviour
             playerAnim.SetBool("jump", false);
             playerAnim.SetBool("idle", true);
         }
+        
         if(helper.isOnGround == false)
         {
             playerAnim.SetBool("idle", false);
@@ -165,13 +181,30 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Kill"))
         {
-            transform.position = new Vector3(xSpawn, ySpawn, 0);
+            Death();
         }
     }
     #endregion
 
+    #region death
     
-    
-    
+    private void Death()
+    {
+        Destroy(gameObject);
+    }
+
+    void OutOfBounds()
+    {
+        if(transform.position.x > xBound && transform.position.y < yBound)
+        {
+            Death();
+        }
+    }
+    #endregion
+
+
+
+
+
 }
 

@@ -10,27 +10,40 @@ public class EnemyScript : MonoBehaviour
     float ey;
     float x;
     float y;
-    float distanceToPlayer;
+
+    float distanceToPlayerX;
+    float distanceToPlayerY;
     bool closeToPlayer;
+
     public float enemySpeed = 2.5f;
     public int health = 100;
+
     int patrolSpeed = 1;
     int speedMultiplier = 1;
+    
     float offset;
     float newPos;
+    
     public bool isOnGround = false;
+    bool canTurn = true;
+    float canTurnCooldown = 1;
+    public bool aggresiveState = false;
 
 
 
     [Header("References")]
-    public GameObject player;
     public SpriteRenderer sr;
     public Rigidbody2D rb;
     public Animator anim;
-    private PlayerController playerController;
+
+    public GameObject player;
     GameObject enemy;
+
+    private PlayerController playerController;
     private Helper helper;
+
     public LayerMask groundLayer;
+    public LayerMask playerLayer;
     #endregion
 
     #region start and update
@@ -40,9 +53,15 @@ public class EnemyScript : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        playerController = GameObject.Find("PlayerSprite").GetComponent<PlayerController>();
-        enemy = GameObject.Find("Enemy");
+
+        if(player !=null)
+        {
+            playerController = GameObject.Find("PlayerSprite").GetComponent<PlayerController>();
+        }
+        
         helper = GetComponent<Helper>();
+
+        enemy = GameObject.Find("Enemy");
     }
 
     // Update is called once per frame
@@ -58,44 +77,48 @@ public class EnemyScript : MonoBehaviour
     #region getting positions
     void GetPositions()
     {
-        ex = player.transform.position.x;
-        ey = player.transform.position.y;
-
-        x = transform.position.x;
-        y = transform.position.y;
-
-        distanceToPlayer = ex - x;
-
-        if (distanceToPlayer > -3 && distanceToPlayer < 3)
+        if(player != null)
         {
-            closeToPlayer = true;   
-        }
-        else
-        {
-            closeToPlayer = false;
-        }
+            ex = player.transform.position.x;
+            ey = player.transform.position.y;
 
-        if(closeToPlayer == true)
-        {
-           // FollowPlayer();
-            anim.SetBool("walk", true);
-            anim.SetBool("idle", false);
+            x = transform.position.x;
+            y = transform.position.y;
+
+            distanceToPlayerX = ex - x;
+            distanceToPlayerY = ey - y;
+
+            if (distanceToPlayerX > -3 && distanceToPlayerX < 3)
+            {
+                closeToPlayer = true;
+            }
+            else
+            {
+                closeToPlayer = false;
+            }
+
+            if (closeToPlayer == true)
+            {
+                //FollowPlayer();
+                anim.SetBool("walk", true);
+                anim.SetBool("idle", false);
+            }
+            else
+            {
+                anim.SetBool("walk", false);
+                anim.SetBool("idle", true);
+            }
         }
-        else
-        {
-            anim.SetBool("walk", false);
-            anim.SetBool("idle", true);
-        }
+       
     }
     #endregion
 
-    #region facing and following player
-   
+    #region checking for player
 
     void FollowPlayer()
     {
        
-        if(distanceToPlayer < 0)
+        if(distanceToPlayerX < 0)
         {
             rb.velocity = new Vector2(-enemySpeed, 0);
         }
@@ -119,11 +142,19 @@ public class EnemyScript : MonoBehaviour
         if (health < 0)
         {
             Destroy(enemy);
-            playerController.enemyAlive = false;
+            if (player != null)
+            {
+                playerController.enemyAlive = false;
+            }
+               
         }
         else
         {
-            playerController.enemyAlive = true;
+            if (player != null)
+            {
+                playerController.enemyAlive = true;
+            }
+
         }
     }
     #endregion
@@ -132,24 +163,34 @@ public class EnemyScript : MonoBehaviour
 
     void Patrolling()
     {
-        if (enemySpeed < 0)
+       if(aggresiveState == false)
         {
-            sr.flipX = true;
-            offset = -0.4f;
-        }
-        else
-        {
-            sr.flipX = false;
-            offset = 0.4f;
-        }
+            if (enemySpeed < 0)
+            {
+                sr.flipX = true;
+                offset = -0.2f;
+            }
+            else
+            {
+                sr.flipX = false;
+                offset = 0.2f;
+            }
 
-        if (!isOnGround)
-        {
-            enemySpeed *= -1;
-            isOnGround = true;
-        }
+            if (!isOnGround && canTurn)
+            {
+                enemySpeed *= -1;
+                canTurn = false;
+                isOnGround = true;
+                Invoke("CanTurnReset", canTurnCooldown);
+            }
 
-        rb.velocity = new Vector2(enemySpeed / 2, rb.velocityY);
+            rb.velocity = new Vector2(enemySpeed / 2, rb.velocityY);
+        }
+    }
+
+    void CanTurnReset()
+    {
+        canTurn = true;
     }
 
     #endregion
