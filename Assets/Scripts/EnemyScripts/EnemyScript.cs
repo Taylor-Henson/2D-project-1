@@ -28,6 +28,7 @@ public class EnemyScript : MonoBehaviour
 
     public bool enemyTakeDamage;
     public bool moveDirection = false;
+    public bool inAggresiveZone = false;
 
 
 
@@ -41,6 +42,7 @@ public class EnemyScript : MonoBehaviour
 
     private PlayerController playerController;
     private Helper helper;
+    private EnemyAttack enemyAttack;
 
     public LayerMask groundLayer;
     public LayerMask playerLayer;
@@ -60,6 +62,7 @@ public class EnemyScript : MonoBehaviour
         }
         
         helper = GetComponent<Helper>();
+        enemyAttack = GetComponent<EnemyAttack>();
 
         enemy = GameObject.Find("Enemy");
     }
@@ -129,19 +132,20 @@ public class EnemyScript : MonoBehaviour
 
     #region checking for player
 
-    void PlayerCheck()
+    public void PlayerCheck()
     {
         //finds if the distance to player is close enough for the aggresive state to be enabled.
-        if (distanceToPlayerX > -3 && distanceToPlayerX < 3)
+        if (distanceToPlayerX > -3 && distanceToPlayerX < 3 || inAggresiveZone == true)
         {
             closeToPlayer = true;
+            enemyAttack.inAttackRange = true;
         }
         else
         {
             closeToPlayer = false;
+            enemyAttack.canGoAgain = true;
         }
     }
-
     #endregion
 
     #region aggresive ai
@@ -152,16 +156,9 @@ public class EnemyScript : MonoBehaviour
             float speed = 1.5f;
             //moves towards the player
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
-
         }
-
-        if (aggresiveState)
-        {
-            //InvokeRepeating("Attack()", 1, 2); 
-        }
-
-            
-            //make enemy face player (should never glitch as no more flipX should be used)
+  
+        //make enemy face player (should never glitch as no more flipX should be used)
         if(distanceToPlayerX > 0)
         {
             sr.flipX = false;
@@ -172,11 +169,6 @@ public class EnemyScript : MonoBehaviour
         }
         
        
-    }
-
-    void Attack()
-    {
-
     }
     #endregion
 
