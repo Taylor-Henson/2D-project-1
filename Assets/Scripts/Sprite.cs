@@ -11,9 +11,6 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 20;
     public float speed = 2f;
 
-    float xSpawn = -4.61f;
-    float ySpawn = -1.51f;
-
     float x;
     float y;
     float ex;
@@ -36,7 +33,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject box;
 
-    private EnemyScript enemyScript;
+    public EnemyScript enemyScript;
     private CameraFollowPlayer cameraScript;
     public GameManagerScript gameManagerScript;
    
@@ -55,7 +52,7 @@ public class PlayerController : MonoBehaviour
        box = GameObject.Find("Box 2");
        enemy = GameObject.Find("Enemy");
 
-       enemyScript = GetComponent<EnemyScript>();
+       enemyScript = GameObject.Find("Enemy").GetComponent<EnemyScript>();
        helper = GetComponent<Helper>();
        cameraScript = GetComponent<CameraFollowPlayer>();
        gameManagerScript = GetComponent<GameManagerScript>();
@@ -171,7 +168,11 @@ public class PlayerController : MonoBehaviour
 
         if(Input.GetKeyDown("q") && inAttackRange == true)
         {
-            enemyScript.TakeDamage();
+            enemyScript.enemyTakeDamage = true;
+        }
+        else
+        {
+            enemyScript.enemyTakeDamage = false;
         }
     }
     #endregion

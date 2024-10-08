@@ -6,8 +6,8 @@ public class EnemyScript : MonoBehaviour
 {
     #region variables and references
     [Header("Variables")]
-    float ex;
-    float ey;
+    float px;
+    float py;
     float x;
     float y;
 
@@ -18,9 +18,6 @@ public class EnemyScript : MonoBehaviour
     public float enemySpeed = 2.5f;
     public int health = 100;
 
-    int patrolSpeed = 1;
-    int speedMultiplier = 1;
-    
     float offset;
     float newPos;
     
@@ -28,6 +25,9 @@ public class EnemyScript : MonoBehaviour
     bool canTurn = true;
     float canTurnCooldown = 1;
     public bool aggresiveState = false;
+
+    public bool enemyTakeDamage;
+    public bool moveDirection = false;
 
 
 
@@ -71,6 +71,7 @@ public class EnemyScript : MonoBehaviour
         Death();
         GroundCheck();
         PlayerCheck();
+        TakeDamage();
     }
     #endregion
 
@@ -79,15 +80,17 @@ public class EnemyScript : MonoBehaviour
     {
         if(player != null)
         {
-            ex = player.transform.position.x;
-            ey = player.transform.position.y;
+            //finds the enemy's and player's positions and the distance between them
+            px = player.transform.position.x;
+            py = player.transform.position.y;
 
             x = transform.position.x;
             y = transform.position.y;
 
-            distanceToPlayerX = ex - x;
-            distanceToPlayerY = ey - y;
-
+            distanceToPlayerX = px - x;
+            distanceToPlayerY = py - y;
+            
+            //sets whether the enemy is in aggresive or patrolling ai
             if (closeToPlayer == true)
             {
                 Aggresive();
@@ -100,16 +103,19 @@ public class EnemyScript : MonoBehaviour
                 Patrolling();
             }
             
+            //sets the animations
             if (rb.velocityX < 0)
             {
                 anim.SetBool("idle", false);
                 anim.SetBool("walk", true);
+                moveDirection = false;
             }
 
             else if (rb.velocityX > 0)
             {
                 anim.SetBool("idle", false);
                 anim.SetBool("walk", true);
+                moveDirection = true;
             }
             else
             {
@@ -125,7 +131,8 @@ public class EnemyScript : MonoBehaviour
 
     void PlayerCheck()
     {
-        if (distanceToPlayerX > -2 && distanceToPlayerX < 2)
+        //finds if the distance to player is close enough for the aggresive state to be enabled.
+        if (distanceToPlayerX > -3 && distanceToPlayerX < 3)
         {
             closeToPlayer = true;
         }
@@ -134,41 +141,53 @@ public class EnemyScript : MonoBehaviour
             closeToPlayer = false;
         }
     }
+
+    #endregion
+
+    #region aggresive ai
     void Aggresive()
     {
         if (aggresiveState)
         {
-            //make enemy run to player
-            if (distanceToPlayerX > 0)
-            {
-                rb.velocity = new Vector2(enemySpeed, 0);
-            }
-            else if (distanceToPlayerX < 0)
-            {
-                rb.velocity = new Vector2(-enemySpeed, 0);
-            }
-            else if (distanceToPlayerX == 0)
-            {
-                rb.velocity = new Vector2(0, 0);
-            }
-            //make enemy face player
-            if(distanceToPlayerX > 0)
-            {
-                sr.flipX = false;
-            }
-            else if(distanceToPlayerX < 0)
-            {
-                sr.flipX = true;
-            }
+            float speed = 1.5f;
+            //moves towards the player
+            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+
         }
+
+        if (aggresiveState)
+        {
+            //InvokeRepeating("Attack()", 1, 2); 
+        }
+
+            
+            //make enemy face player (should never glitch as no more flipX should be used)
+        if(distanceToPlayerX > 0)
+        {
+            sr.flipX = false;
+        }
+        else if(distanceToPlayerX < 0)
+        {
+            sr.flipX = true;
+        }
+        
        
+    }
+
+    void Attack()
+    {
+
     }
     #endregion
 
     #region taking damage and dying
     public void TakeDamage()
     {
-        health -= 34;
+        if (enemyTakeDamage == true)
+        {
+            health -= 34;
+        }
+        
     }
 
     void Death()
