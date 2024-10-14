@@ -28,24 +28,21 @@ public class EnemyScript : MonoBehaviour
 
     public bool enemyTakeDamage;
     public bool moveDirection = false;
-    public bool inAggresiveZone = false;
-
-
 
     [Header("References")]
-    public SpriteRenderer sr;
-    public Rigidbody2D rb;
-    public Animator anim;
+    private SpriteRenderer sr;
+    private Rigidbody2D rb;
+    private Animator anim;
 
-    public GameObject player;
+    private GameObject player;
     GameObject enemy;
 
     private PlayerController playerController;
-    private Helper helper;
+    private HelperScript helper;
     private EnemyAttack enemyAttack;
 
     public LayerMask groundLayer;
-    public LayerMask playerLayer;
+    public LayerMask whatIsPlayer;
     #endregion
 
     #region start and update
@@ -61,7 +58,7 @@ public class EnemyScript : MonoBehaviour
             playerController = GameObject.Find("PlayerSprite").GetComponent<PlayerController>();
         }
         
-        helper = GetComponent<Helper>();
+        helper = gameObject.AddComponent<HelperScript>();
         enemyAttack = GetComponent<EnemyAttack>();
 
         enemy = GameObject.Find("Enemy");
@@ -135,15 +132,23 @@ public class EnemyScript : MonoBehaviour
     public void PlayerCheck()
     {
         //finds if the distance to player is close enough for the aggresive state to be enabled.
-        if (distanceToPlayerX > -3 && distanceToPlayerX < 3 || inAggresiveZone == true)
+        if (Physics2D.OverlapCircle(transform.position, 6, whatIsPlayer))
         {
             closeToPlayer = true;
             enemyAttack.inAttackRange = true;
+            //Debug.Log("in aggresive area");
         }
         else
         {
             closeToPlayer = false;
             enemyAttack.canGoAgain = true;
+        }
+
+        //checks for if the player is close enough to be damaged by a melee attack
+        if(Physics2D.OverlapCircle(transform.position, 1.5f, whatIsPlayer))
+        {
+            enemyAttack.inMeleeRange = true;
+            //Debug.Log("in melee range");
         }
     }
     #endregion

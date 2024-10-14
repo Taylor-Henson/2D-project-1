@@ -6,8 +6,10 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     #region variables and references
-   
+
     [Header("Variables")]
+    public int health = 100;
+
     public float jumpForce = 20;
     public float speed = 2f;
 
@@ -38,7 +40,7 @@ public class PlayerController : MonoBehaviour
     public GameManagerScript gameManagerScript;
    
     GameObject enemy;
-    Helper helper;
+    private HelperScript helper;
     #endregion
 
     #region start and update
@@ -53,7 +55,7 @@ public class PlayerController : MonoBehaviour
        enemy = GameObject.Find("Enemy");
 
        enemyScript = GameObject.Find("Enemy").GetComponent<EnemyScript>();
-       helper = GetComponent<Helper>();
+       helper = gameObject.AddComponent<HelperScript>();
        cameraScript = GetComponent<CameraFollowPlayer>();
        gameManagerScript = GetComponent<GameManagerScript>();
 
@@ -68,6 +70,7 @@ public class PlayerController : MonoBehaviour
         Landing();
         Attacking();
         OutOfBounds();
+        NoHealthLeft();
 
         if (enemyAlive == true)
         {
@@ -142,7 +145,7 @@ public class PlayerController : MonoBehaviour
 
     void Landing()
     {
-        if(helper.isOnGround == true)
+        if (helper.isOnGround)
         {
             playerAnim.SetBool("fall", false);
             playerAnim.SetBool("jump", false);
@@ -153,7 +156,7 @@ public class PlayerController : MonoBehaviour
         {
             playerAnim.SetBool("idle", false);
         }
-
+        
     }
     #endregion
 
@@ -201,6 +204,16 @@ public class PlayerController : MonoBehaviour
             Death();
         }
     }
+
+    void NoHealthLeft()
+    {
+        if(health <= 0)
+        {
+            Death();
+        }
+    }
+
+    
     #endregion
 
 

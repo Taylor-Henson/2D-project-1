@@ -1,23 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class Helper : MonoBehaviour
+public class HelperScript : MonoBehaviour
 {
+
     #region variables and references
-    
+
     public bool isOnGround = false;
-    
+
     public LayerMask groundLayer;
     #endregion
 
     #region start and update
-   
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
