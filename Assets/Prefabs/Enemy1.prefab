@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 1351340971837458193}
   - component: {fileID: 48162452874343321}
   - component: {fileID: 8226046006223256857}
-  - component: {fileID: 206512276793056491}
   - component: {fileID: 6942138230652897558}
   - component: {fileID: 8999623130642741373}
   - component: {fileID: 9059740155032927795}
+  - component: {fileID: 7929592424670473894}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Player
@@ -116,30 +116,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &206512276793056491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4724476397602370176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5a46360f31b1004495f1c12fd1faa5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemySpeed: 2.5
-  health: 100
-  isOnGround: 0
-  aggresiveState: 0
-  enemyTakeDamage: 0
-  moveDirection: 0
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 1024
-  whatIsPlayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!95 &6942138230652897558
 Animator:
   serializedVersion: 7
@@ -214,3 +190,28 @@ MonoBehaviour:
   inAttackRange: 0
   canGoAgain: 1
   inMeleeRange: 0
+--- !u!114 &7929592424670473894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4724476397602370176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a46360f31b1004495f1c12fd1faa5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceToPlayerX: 0
+  enemySpeed: 2.5
+  health: 100
+  isOnGround: 0
+  aggresiveState: 0
+  enemyTakeDamage: 0
+  moveDirection: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64

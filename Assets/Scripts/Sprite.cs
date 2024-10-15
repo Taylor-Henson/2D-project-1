@@ -23,9 +23,11 @@ public class PlayerController : MonoBehaviour
     public bool inAttackRange;
     public bool enemyAlive;
 
+    //the area where the player will die if they go too far
     int xBound = 13;
     int yBound = -3;
 
+    //if the player is not null
     bool playerActive = true;
 
     [Header("References")]
@@ -36,11 +38,10 @@ public class PlayerController : MonoBehaviour
     public GameObject box;
 
     public EnemyScript enemyScript;
-    private CameraFollowPlayer cameraScript;
     public GameManagerScript gameManagerScript;
    
     GameObject enemy;
-    private HelperScript helper;
+    public HelperScript helper;
     #endregion
 
     #region start and update
@@ -52,11 +53,10 @@ public class PlayerController : MonoBehaviour
        playerSr = GetComponent<SpriteRenderer>();
 
        box = GameObject.Find("Box 2");
-       enemy = GameObject.Find("Enemy");
+       enemyScript = GameObject.Find("Enemy1").GetComponent<EnemyScript>();
 
-       enemyScript = GameObject.Find("Enemy").GetComponent<EnemyScript>();
+       //enemyScript = enemy.GetComponent<EnemyScript>();
        helper = gameObject.AddComponent<HelperScript>();
-       cameraScript = GetComponent<CameraFollowPlayer>();
        gameManagerScript = GetComponent<GameManagerScript>();
 
     }
@@ -76,6 +76,8 @@ public class PlayerController : MonoBehaviour
         {
             GetPositions();
         }
+
+        playerAnim.SetBool("idle", false);
     }
 
         #endregion
@@ -126,37 +128,38 @@ public class PlayerController : MonoBehaviour
 
     #region jumping and landing
     void Jump() // enables jumping animation and forces
-    { 
-        if (Input.GetKeyDown("space") && helper.isOnGround && playerActive)
+    {
+        //print("grounded=" + helper.isOnTheGround);
+
+        if (Input.GetKeyDown("space") && helper.isOnTheGround && playerActive)
         {
             playerRb.AddForce(new Vector3(0, 1, 0) * jumpForce, ForceMode2D.Impulse);
-            helper.isOnGround = false;
+            helper.isOnTheGround = false;
             playerAnim.SetBool("jump", true);
         }
     }
 
     void Falling()
     {
-       if(playerRb.velocity.y < 0)
+       if(playerRb.velocity.y < -0.1)
        {
+            //Debug.Log("falling");
             playerAnim.SetBool("fall", true);
        }
     }
 
-    void Landing()
+    public void Landing()
     {
-        if (helper.isOnGround)
+        //Debug.Log("landing method");
+        if(helper.isOnTheGround)
         {
+            //Debug.Log("on the ground");
+
             playerAnim.SetBool("fall", false);
             playerAnim.SetBool("jump", false);
             playerAnim.SetBool("idle", true);
         }
-        
-        if(helper.isOnGround == false)
-        {
-            playerAnim.SetBool("idle", false);
-        }
-        
+
     }
     #endregion
 

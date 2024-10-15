@@ -11,7 +11,7 @@ public class EnemyScript : MonoBehaviour
     float x;
     float y;
 
-    float distanceToPlayerX;
+    public float distanceToPlayerX;
     float distanceToPlayerY;
     bool closeToPlayer;
 
@@ -19,7 +19,6 @@ public class EnemyScript : MonoBehaviour
     public int health = 100;
 
     float offset;
-    float newPos;
     
     public bool isOnGround = false;
     bool canTurn = true;
@@ -38,7 +37,6 @@ public class EnemyScript : MonoBehaviour
     GameObject enemy;
 
     private PlayerController playerController;
-    private HelperScript helper;
     private EnemyAttack enemyAttack;
 
     public LayerMask groundLayer;
@@ -53,12 +51,14 @@ public class EnemyScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
+        groundLayer = LayerMask.GetMask("Ground");
+        whatIsPlayer = LayerMask.GetMask("Player");
+
         if(player !=null)
         {
             playerController = GameObject.Find("PlayerSprite").GetComponent<PlayerController>();
         }
         
-        helper = gameObject.AddComponent<HelperScript>();
         enemyAttack = GetComponent<EnemyAttack>();
 
         enemy = GameObject.Find("Enemy");
@@ -157,6 +157,7 @@ public class EnemyScript : MonoBehaviour
     void Aggresive()
     {
         if (aggresiveState)
+            Debug.Log("aggresive state");
         {
             float speed = 1.5f;
             //moves towards the player
@@ -213,6 +214,7 @@ public class EnemyScript : MonoBehaviour
 
     void Patrolling()
     {
+        Debug.Log("patrolling");
         //face direction walking
         if(!aggresiveState)
         if(rb.velocityX < 0)

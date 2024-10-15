@@ -7,9 +7,12 @@ public class HelperScript : MonoBehaviour
 
     #region variables and references
 
-    public bool isOnGround = false;
+    public bool isOnTheGround = false;
 
     public LayerMask groundLayer;
+
+    private GameObject playerSprite;
+    private PlayerController playerScript;
     #endregion
 
     #region start and update
@@ -17,6 +20,10 @@ public class HelperScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerScript = GetComponent<PlayerController>();
+        playerSprite = GameObject.Find("PlayerSprite");
+
+        groundLayer = LayerMask.GetMask("Ground");
 
     }
 
@@ -30,6 +37,7 @@ public class HelperScript : MonoBehaviour
     #region RayCasts
     void DoGroundCheck()
     {
+        //Debug.Log("do groundcheck raycast");
         Vector2 position = transform.position;
         Vector2 direction = Vector2.down;
         float distance = 0.5f;
@@ -38,14 +46,17 @@ public class HelperScript : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundLayer);
         if (hit.collider != null)
         {
-            isOnGround = true;
+            isOnTheGround = true;
+            //Debug.Log("on ground");
         }
         else
         {
-            isOnGround = false;
+            isOnTheGround = false;
         }
     }
+
     #endregion
+
 
 
 
