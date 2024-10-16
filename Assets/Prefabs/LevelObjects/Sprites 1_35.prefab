@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7492538026489025331}
   - component: {fileID: 8614083891901298309}
   - component: {fileID: 4271241688712582783}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sprites 1_35
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
