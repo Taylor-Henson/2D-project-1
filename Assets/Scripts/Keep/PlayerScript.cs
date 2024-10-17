@@ -157,6 +157,3 @@ public class PlayerScript : MonoBehaviour
 
     #endregion
 }
-
-
-//brackeys 15.32

@@ -9,6 +9,8 @@ TagManager:
   - Box
   - player
   - Falling
+  - Knight
+  - TurnPoint
   layers:
   - Default
   - TransparentFX
