@@ -25,6 +25,7 @@ public class PlayerScript : MonoBehaviour
     LayerMask groundLayerMask;
 
     #endregion
+
     #region start and update
     // Start is called before the first frame update
     void Start()
@@ -61,7 +62,7 @@ public class PlayerScript : MonoBehaviour
         {
             sr.flipX = true;
         }
-        if ( rb.velocityX > 0)
+        if (rb.velocityX > 0)
         {
             sr.flipX = false;
         }
@@ -79,13 +80,13 @@ public class PlayerScript : MonoBehaviour
         //makes the jump animation override others if the space key is pressed
         if (rb.velocity.y > 1)
         {
-            Debug.Log("Jumping");
+            //Debug.Log("Jumping");
             anim.SetBool("Jump", true);
         }
 
         else if (rb.velocity.y < 0)
         {
-            Debug.Log("falling;");
+            //Debug.Log("falling;");
             anim.SetBool("Fall", true);
             anim.SetBool("Jump", false);
         }
@@ -93,7 +94,7 @@ public class PlayerScript : MonoBehaviour
         //landing on ground
         if (touchingGround)
         {
-            Debug.Log("landing");
+            //Debug.Log("landing");
             anim.SetBool("Jump", false);
             anim.SetBool("Fall", false);
         }
@@ -156,3 +157,6 @@ public class PlayerScript : MonoBehaviour
 
     #endregion
 }
+
+
+//brackeys 15.32
