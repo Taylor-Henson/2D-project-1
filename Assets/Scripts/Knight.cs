@@ -6,39 +6,55 @@ using UnityEngine;
 
 public class Knight : MonoBehaviour
 {
-    private float speed = 1.5f;
+    #region variables and references
 
+    [Header("Variables")]
+    //movement variables
+    private float speed = 1.5f;
     private int characterDirection;
 
+    //attack variables
     private bool attackCooldown;
     private bool pauseWalk;
 
+    [Header("References")]
+    //layermasks
     private LayerMask playerLayer;
 
+    //components
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Animator anim;
     public Transform point;
-
-    public GameObject player;
     public PlayerScript playerScript;
+
+    //gamobjects
+    public GameObject player;
+
+    #endregion
+
+    #region start and update
     // Start is called before the first frame update
     void Start()
     {
+        //components
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
 
+        //layermasks
         playerLayer = LayerMask.GetMask("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
+        //methods
         Walk();
         Animations();
         HitDetection();
 
+        //setting the character direction
         if (rb.velocityX < 0)
         {
             characterDirection = -1;
@@ -48,18 +64,27 @@ public class Knight : MonoBehaviour
             characterDirection = 1;
         }
     }
+    #endregion
 
+    #region movement
     void Walk()
     {
+        //makes the knight walk 
+        rb.velocity = new Vector2(speed, rb.velocity.y);
 
-        if (pauseWalk == false)
-        {
-            rb.velocity = new Vector2(speed, rb.velocity.y);
-        }
-
+        //animates it
         if (rb.velocityX > 0)
         {
             anim.SetBool("Run", true);
+        }
+    }
+
+    //turns the knight when it reaches a turnpoint
+    private void OnTriggerEnter2D (Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("TurnPoint"))
+        {
+            speed *= -1;
         }
     }
 
@@ -75,17 +100,13 @@ public class Knight : MonoBehaviour
             sr.flipX = false;
         }
     }
+    #endregion
 
-    private void OnTriggerEnter2D (Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("TurnPoint"))
-        {
-            speed *= -1;
-        }
-    }
-
+    #region Attack
     void HitDetection()
     {
+        //player detection
+
         float rayLength = 1;
         Vector2 position = transform.position;
         Vector2 direction = Vector2.right * new Vector2 (characterDirection, 0f);
@@ -107,6 +128,7 @@ public class Knight : MonoBehaviour
 
     void Attack()
     {
+        //performs the attack
         if (attackCooldown == false)
         {
             //animation 
@@ -121,13 +143,15 @@ public class Knight : MonoBehaviour
 
     void Cooldown()
     {
+        //cooldown where the knight cannot attack
         attackCooldown = false;
     }
 
     void HurtPlayer()
     {
+        //makes the player lose health
         player.GetComponent<PlayerCombat>().TakeDamage();
     }
-
+    #endregion
 }
 

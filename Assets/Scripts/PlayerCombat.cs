@@ -9,6 +9,7 @@ public class PlayerCombat : MonoBehaviour
     //variables
     public int health = 3;
 
+    //attack variables
     private float attackRange = 1;
     public int attackDamage = 1;
     private bool attackCooldown;
@@ -51,6 +52,7 @@ public class PlayerCombat : MonoBehaviour
 
     void Cooldown()
     {
+        //cooldown between attacks
         attackCooldown = false;
     }
     void Attack()
@@ -83,7 +85,9 @@ public class PlayerCombat : MonoBehaviour
     #region taking damage and dying
     public void TakeDamage()
     {
+        //takes away health
         health -= 1;
+        //animates it
         anim.SetBool("Hurt", true);
 
         if (health <= 0)
@@ -94,6 +98,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void Die()
     {
+        //kills player
         Debug.Log("player died");
     }
     #endregion
