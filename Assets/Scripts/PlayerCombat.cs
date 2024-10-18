@@ -7,8 +7,11 @@ public class PlayerCombat : MonoBehaviour
     #region variables and references
     [Header("Variables")]
     //variables
+    public int health = 3;
+
     private float attackRange = 1;
     public int attackDamage = 1;
+    private bool attackCooldown;
 
     [Header("References")]
     //layers
@@ -35,7 +38,7 @@ public class PlayerCombat : MonoBehaviour
     void Update()
     {
         //user input
-        if (Input.GetKeyDown("e"))
+        if (Input.GetKeyDown("e") && attackCooldown == false)
         {
             //Debug.Log("e");
             Attack();
@@ -45,19 +48,28 @@ public class PlayerCombat : MonoBehaviour
     #endregion
 
     #region attacking enemies
+
+    void Cooldown()
+    {
+        attackCooldown = false;
+    }
     void Attack()
     {
         //attack animation
         anim.SetTrigger("Attack");
+        //cooldown
+        attackCooldown = true;
+        Invoke("Cooldown", 0.5f);
+
         //Debug.Log("attack");
 
         //enemy detection
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
-        foreach (Collider2D knight in hitEnemies)
+        foreach (Collider2D hit in hitEnemies)
         {
             //calls method in enemy scripts
-            knight.GetComponent<EnemyDamage>().TakeDamage(attackDamage);
+            hit.GetComponent<EnemyDamage>().TakeDamage(attackDamage);
             //Debug.Log("hit");
         }
     }
@@ -65,6 +77,24 @@ public class PlayerCombat : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+    #endregion
+
+    #region taking damage and dying
+    public void TakeDamage()
+    {
+        health -= 1;
+        anim.SetBool("Hurt", true);
+
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    public void Die()
+    {
+        Debug.Log("player died");
     }
     #endregion
 }

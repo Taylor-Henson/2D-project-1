@@ -5,11 +5,13 @@ using UnityEngine;
 public class Spike : MonoBehaviour
 {
     private GameObject player;
+    public PlayerCombat playerCombat;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.Find("PlayerSprite");
+        playerCombat = player.GetComponent<PlayerCombat>();
     }
 
     // Update is called once per frame
@@ -22,7 +24,7 @@ public class Spike : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("spike hit");
+           playerCombat.Die();
         }
     }
 }

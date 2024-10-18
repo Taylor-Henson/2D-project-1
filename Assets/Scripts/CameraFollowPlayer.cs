@@ -6,7 +6,6 @@ public class CameraFollowPlayer : MonoBehaviour
 {
     public bool dead = false;
 
-    private PlayerController playerController;
     public GameObject player;
     // Start is called before the first frame update
     void Start()
@@ -14,7 +13,7 @@ public class CameraFollowPlayer : MonoBehaviour
         player = GameObject.Find("PlayerSprite");
         if(player !=null)
         {
-            playerController = player.GetComponent<PlayerController>();
+            
         }
     }
 

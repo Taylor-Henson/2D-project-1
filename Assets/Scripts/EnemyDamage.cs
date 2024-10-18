@@ -55,6 +55,7 @@ public class EnemyDamage : MonoBehaviour
         anim.SetBool("isDead", true);
         //disable enemy
         this.enabled = false;
+        Destroy(gameObject, 3);
         GetComponent<Collider2D>().enabled = false;
         //Debug.Log("knight died");
     }
