@@ -11,6 +11,7 @@ TagManager:
   - Falling
   - Knight
   - TurnPoint
+  - Dragon
   layers:
   - Default
   - TransparentFX

@@ -72,6 +72,7 @@ public class PlayerCombat : MonoBehaviour
         {
             //calls method in enemy scripts
             hit.GetComponent<EnemyDamage>().TakeDamage(attackDamage);
+            hit.GetComponent<EnemyDamage>().TakeDamage(attackDamage);
             //Debug.Log("hit");
         }
     }
@@ -94,6 +95,11 @@ public class PlayerCombat : MonoBehaviour
         {
             Die();
         }
+    }
+
+    public void GainHealth()
+    {
+        health += 2;
     }
 
     public void Die()

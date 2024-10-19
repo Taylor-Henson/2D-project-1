@@ -11,10 +11,6 @@ public class CameraFollowPlayer : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("PlayerSprite");
-        if(player !=null)
-        {
-            
-        }
     }
 
     // Update is called once per frame

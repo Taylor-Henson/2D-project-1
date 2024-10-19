@@ -9,6 +9,7 @@ public class EnemyDamage : MonoBehaviour
     [Header("Variables")]
     public int maxHealth = 3;
     public int currentHealth;
+    public bool iFrames;
 
     [Header("References")]
     public Animator anim;
@@ -36,17 +37,26 @@ public class EnemyDamage : MonoBehaviour
     #region taking damage and dying
     public void TakeDamage(int damage) // passes in damage from playerScript
     {
-        //takes damage from health
-        currentHealth -= damage;
-
-        //animation
-        anim.SetTrigger("Hurt");
-
-        //when health reaches zero
-        if (currentHealth <= 0)
+        if (iFrames == false)
         {
-            Die();
+            //takes damage from health
+            currentHealth -= 1;
+            iFrames = true;
+            Invoke("IFrames", 0.5f);
+
+            //animation
+            anim.SetTrigger("Hurt");
+
+            //when health reaches zero
+            if (currentHealth <= 0)
+            {
+                Die();
+            }
         }
+    }
+    void IFrames()
+    {
+        iFrames = false;
     }
 
     void Die()
