@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -106,6 +107,7 @@ public class PlayerCombat : MonoBehaviour
     {
         //kills player
         Debug.Log("player died");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     #endregion
 }
