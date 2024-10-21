@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerCombat : MonoBehaviour
     [Header("Variables")]
     //variables
     public int health = 3;
+    public TextMeshProUGUI health_text;
 
     //attack variables
     private float attackRange = 1;
@@ -45,7 +47,9 @@ public class PlayerCombat : MonoBehaviour
             //Debug.Log("e");
             Attack();
         }
-        //calling methods
+
+        health_text.text = "Lives Left: " + health;
+
     }
     #endregion
 
@@ -106,7 +110,7 @@ public class PlayerCombat : MonoBehaviour
     public void Die()
     {
         //kills player
-        Debug.Log("player died");
+        //Debug.Log("player died");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     #endregion

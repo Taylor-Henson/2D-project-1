@@ -9,7 +9,8 @@ public class PlayerScript : MonoBehaviour
     [Header("Variables")]
     //movement variables
     private int speed = 8;
-    private int jumpForce = 25;
+    private int jumpForce = 33;
+    public bool moving;
 
     //groundcheck
     public bool touchingGround = false;
@@ -67,7 +68,7 @@ public class PlayerScript : MonoBehaviour
         }
 
         //makes the run animation play if the player is moving and end when they stop
-        if (rb.velocityX > 0.5 || rb.velocityX < 0 && touchingGround)
+        if (moving && touchingGround)
         {
             anim.SetBool("Run", true);
         }
@@ -107,10 +108,16 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetKey("d"))
         {
             rb.velocity = new Vector2(speed, rb.velocity.y);
+            moving = true;
         }
-        if (Input.GetKey("a"))
+        else if (Input.GetKey("a"))
         {
             rb.velocity = new Vector2(-speed, rb.velocity.y);
+            moving = true;
+        }
+        else
+        {
+            moving = false;
         }
     }
 

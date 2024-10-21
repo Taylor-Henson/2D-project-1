@@ -25,7 +25,7 @@ public class Knight : MonoBehaviour
     private SpriteRenderer sr;
     private Animator anim;
     public Transform point;
-    public PlayerScript playerScript;
+    private PlayerScript playerScript;
 
     //gamobjects
     public GameObject player;
